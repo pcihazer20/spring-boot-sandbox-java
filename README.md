@@ -6,6 +6,8 @@ A ready-to-fork template project for building Spring Boot applications on the JV
 
 This project is intended as a **source branch** for spinning off new Spring Boot projects. It provides a well-structured, working baseline with sensible defaults for the stack listed below. Rather than starting from a blank Spring Initializr export every time, fork this repo and adapt it to your needs.
 
+All domain classes (`MyEntity`, `MyRepository`, `MyService`, `MyController`) are intentional placeholders. Replace them with your own domain model when you fork.
+
 ## Tech Stack
 
 | Layer | Technology |
@@ -26,24 +28,25 @@ This project is intended as a **source branch** for spinning off new Spring Boot
 src/
 ├── main/
 │   ├── java/com/example/sandbox/
-│   │   ├── SandboxApplication.java       # Entry point
+│   │   ├── Application.java              # Entry point
 │   │   ├── controller/
-│   │   │   └── UserController.java       # REST endpoints
+│   │   │   └── MyController.java         # Placeholder REST controller
 │   │   ├── service/
-│   │   │   └── UserService.java          # Business logic
+│   │   │   └── MyService.java            # Placeholder service
 │   │   ├── repository/
-│   │   │   └── UserRepository.java       # Spring Data JPA repository
+│   │   │   └── MyRepository.java         # Placeholder Spring Data JPA repository
 │   │   └── entity/
-│   │       └── User.java                 # JPA entity
+│   │       └── MyEntity.java             # Placeholder JPA entity
 │   └── resources/
 │       └── application.yml               # Main config (PostgreSQL)
 └── test/
     ├── java/com/example/sandbox/
+    │   ├── ApplicationTests.java          # Spring context smoke test
     │   └── service/
-    │       └── UserServiceTest.java       # JUnit 5 + Mockito unit tests
-    └── groovy/com/example/sandbox/
-        └── service/
-            └── UserServiceSpec.groovy     # Spock BDD spec
+    │       └── MyServiceTest.java         # JUnit 5 + Mockito unit tests (placeholder)
+    ├── groovy/com/example/sandbox/
+    │   └── service/
+    │       └── MyServiceSpec.groovy       # Spock BDD spec (placeholder)
     └── resources/
         └── application-test.yml          # Test config (H2 in-memory)
 ```
@@ -92,38 +95,13 @@ Tests run against H2 in-memory (no Docker needed). Both JUnit and Spock specs ar
 java -jar build/libs/spring-boot-sandbox-java-0.0.1-SNAPSHOT.jar
 ```
 
-## REST API
-
-The included `User` resource demonstrates a full CRUD slice end-to-end.
-
-| Method | Path | Description |
-|---|---|---|
-| `GET` | `/api/users` | List all users |
-| `GET` | `/api/users/{id}` | Get user by id |
-| `POST` | `/api/users` | Create a user |
-| `DELETE` | `/api/users/{id}` | Delete a user |
-
-**Example — create a user:**
-
-```bash
-curl -X POST http://localhost:8080/api/users \
-  -H "Content-Type: application/json" \
-  -d '{"name": "Alice", "email": "alice@example.com"}'
-```
-
-**Example — list users:**
-
-```bash
-curl http://localhost:8080/api/users
-```
-
 ## Testing Strategy
 
 Two complementary test styles are set up side-by-side:
 
 ### JUnit 5 + Mockito (`src/test/java`)
 
-Standard unit tests using `@ExtendWith(MockitoExtension.class)`. Tests are grouped with `@Nested` classes and `@DisplayName` annotations for readable output. All repository interactions are verified with AssertJ assertions and Mockito `verify()`.
+Standard unit tests using `@ExtendWith(MockitoExtension.class)`. Tests are grouped with `@Nested` classes and `@DisplayName` annotations for readable output. Repository interactions are verified with AssertJ assertions and Mockito `verify()`.
 
 ### Spock (`src/test/groovy`)
 
@@ -137,9 +115,9 @@ To use this as a base for your own project:
 2. Rename the root project in `settings.gradle.kts`.
 3. Update `group` in `build.gradle.kts` to your own package namespace.
 4. Rename the Java package from `com.example.sandbox` to your own (find-and-replace across `src/`).
-5. Replace the `User` entity, repository, service, and controller with your own domain model.
+5. Replace the `My*` placeholder classes (`MyEntity`, `MyRepository`, `MyService`, `MyController`) with your own domain model.
 6. Update `application.yml` with your database name and credentials (or inject them via environment variables).
-7. Delete or adapt the test fixtures to match your new domain.
+7. Adapt the test stubs in `MyServiceTest.java` and `MyServiceSpec.groovy` to cover your new domain logic.
 
 ## Configuration Reference
 
