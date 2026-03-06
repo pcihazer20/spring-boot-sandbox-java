@@ -1,0 +1,3158 @@
+[
+  {
+    "id": "7058874116",
+    "type": "PullRequestReviewEvent",
+    "actor": {
+      "id": 6379399,
+      "login": "cirospaciari",
+      "display_login": "cirospaciari",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cirospaciari",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6379399?"
+    },
+    "repo": {
+      "id": 1100776768,
+      "name": "anthropics/claude-plugins-official",
+      "url": "https://api.github.com/repos/anthropics/claude-plugins-official"
+    },
+    "payload": {
+      "review": {
+        "id": 3886173066,
+        "node_id": "PRR_kwDOQZyFQM7nokuK",
+        "user": {
+          "login": "cirospaciari",
+          "id": 6379399,
+          "node_id": "MDQ6VXNlcjYzNzkzOTk=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/6379399?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/cirospaciari",
+          "html_url": "https://github.com/cirospaciari",
+          "followers_url": "https://api.github.com/users/cirospaciari/followers",
+          "following_url": "https://api.github.com/users/cirospaciari/following{/other_user}",
+          "gists_url": "https://api.github.com/users/cirospaciari/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/cirospaciari/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/cirospaciari/subscriptions",
+          "organizations_url": "https://api.github.com/users/cirospaciari/orgs",
+          "repos_url": "https://api.github.com/users/cirospaciari/repos",
+          "events_url": "https://api.github.com/users/cirospaciari/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/cirospaciari/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": null,
+        "commit_id": "fe41d329d5209cc78800754ba91766dc0e04fdb8",
+        "submitted_at": "2026-03-04T01:06:40Z",
+        "state": "approved",
+        "html_url": "https://github.com/anthropics/claude-plugins-official/pull/500#pullrequestreview-3886173066",
+        "pull_request_url": "https://api.github.com/repos/anthropics/claude-plugins-official/pulls/500",
+        "_links": {
+          "html": {
+            "href": "https://github.com/anthropics/claude-plugins-official/pull/500#pullrequestreview-3886173066"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/anthropics/claude-plugins-official/pulls/500"
+          }
+        },
+        "updated_at": "2026-03-04T01:06:40Z"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/anthropics/claude-plugins-official/pulls/500",
+        "id": 3351229163,
+        "number": 500,
+        "head": {
+          "ref": "claude/slack-update-webhook-link-wikTM",
+          "sha": "fe41d329d5209cc78800754ba91766dc0e04fdb8",
+          "repo": {
+            "id": 1100776768,
+            "url": "https://api.github.com/repos/anthropics/claude-plugins-official",
+            "name": "claude-plugins-official"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "b7c995dd3cb7e79bcfadc769fa7a9d51bc6da50f",
+          "repo": {
+            "id": 1100776768,
+            "url": "https://api.github.com/repos/anthropics/claude-plugins-official",
+            "name": "claude-plugins-official"
+          }
+        }
+      },
+      "action": "created"
+    },
+    "public": true,
+    "created_at": "2026-03-04T01:06:41Z",
+    "org": {
+      "id": 76263028,
+      "login": "anthropics",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/anthropics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76263028?"
+    }
+  },
+  {
+    "id": "7012021018",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 6379399,
+      "login": "cirospaciari",
+      "display_login": "cirospaciari",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cirospaciari",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6379399?"
+    },
+    "repo": {
+      "id": 357728969,
+      "name": "oven-sh/bun",
+      "url": "https://api.github.com/repos/oven-sh/bun"
+    },
+    "payload": {
+      "action": "closed",
+      "issue": {
+        "url": "https://api.github.com/repos/oven-sh/bun/issues/7135",
+        "repository_url": "https://api.github.com/repos/oven-sh/bun",
+        "labels_url": "https://api.github.com/repos/oven-sh/bun/issues/7135/labels{/name}",
+        "comments_url": "https://api.github.com/repos/oven-sh/bun/issues/7135/comments",
+        "events_url": "https://api.github.com/repos/oven-sh/bun/issues/7135/events",
+        "html_url": "https://github.com/oven-sh/bun/issues/7135",
+        "id": 1994610791,
+        "node_id": "I_kwDOFVKCyc5241hn",
+        "number": 7135,
+        "title": "Unable to Forward Request Body Stream to Fetch",
+        "user": {
+          "login": "PeronGH",
+          "id": 18367871,
+          "node_id": "MDQ6VXNlcjE4MzY3ODcx",
+          "avatar_url": "https://avatars.githubusercontent.com/u/18367871?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/PeronGH",
+          "html_url": "https://github.com/PeronGH",
+          "followers_url": "https://api.github.com/users/PeronGH/followers",
+          "following_url": "https://api.github.com/users/PeronGH/following{/other_user}",
+          "gists_url": "https://api.github.com/users/PeronGH/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/PeronGH/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/PeronGH/subscriptions",
+          "organizations_url": "https://api.github.com/users/PeronGH/orgs",
+          "repos_url": "https://api.github.com/users/PeronGH/repos",
+          "events_url": "https://api.github.com/users/PeronGH/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/PeronGH/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "id": 2912240655,
+            "node_id": "MDU6TGFiZWwyOTEyMjQwNjU1",
+            "url": "https://api.github.com/repos/oven-sh/bun/labels/bug",
+            "name": "bug",
+            "color": "d73a4a",
+            "default": true,
+            "description": "Something isn't working"
+          },
+          {
+            "id": 7039783390,
+            "node_id": "LA_kwDOFVKCyc8AAAABo5qR3g",
+            "url": "https://api.github.com/repos/oven-sh/bun/labels/web:fetch",
+            "name": "web:fetch",
+            "color": "4EA7FC",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 7592475142,
+            "node_id": "LA_kwDOFVKCyc8AAAABxIv6Bg",
+            "url": "https://api.github.com/repos/oven-sh/bun/labels/confirmed%20bug",
+            "name": "confirmed bug",
+            "color": "1C473E",
+            "default": false,
+            "description": "We can reproduce this issue"
+          }
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignees": [
+          {
+            "login": "cirospaciari",
+            "id": 6379399,
+            "node_id": "MDQ6VXNlcjYzNzkzOTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6379399?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/cirospaciari",
+            "html_url": "https://github.com/cirospaciari",
+            "followers_url": "https://api.github.com/users/cirospaciari/followers",
+            "following_url": "https://api.github.com/users/cirospaciari/following{/other_user}",
+            "gists_url": "https://api.github.com/users/cirospaciari/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/cirospaciari/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/cirospaciari/subscriptions",
+            "organizations_url": "https://api.github.com/users/cirospaciari/orgs",
+            "repos_url": "https://api.github.com/users/cirospaciari/repos",
+            "events_url": "https://api.github.com/users/cirospaciari/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/cirospaciari/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        ],
+        "milestone": null,
+        "comments": 3,
+        "created_at": "2023-11-15T11:39:21Z",
+        "updated_at": "2026-03-02T17:20:55Z",
+        "closed_at": "2026-03-02T17:20:55Z",
+        "assignee": {
+          "login": "cirospaciari",
+          "id": 6379399,
+          "node_id": "MDQ6VXNlcjYzNzkzOTk=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/6379399?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/cirospaciari",
+          "html_url": "https://github.com/cirospaciari",
+          "followers_url": "https://api.github.com/users/cirospaciari/followers",
+          "following_url": "https://api.github.com/users/cirospaciari/following{/other_user}",
+          "gists_url": "https://api.github.com/users/cirospaciari/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/cirospaciari/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/cirospaciari/subscriptions",
+          "organizations_url": "https://api.github.com/users/cirospaciari/orgs",
+          "repos_url": "https://api.github.com/users/cirospaciari/repos",
+          "events_url": "https://api.github.com/users/cirospaciari/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/cirospaciari/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "type": null,
+        "active_lock_reason": null,
+        "sub_issues_summary": {
+          "total": 0,
+          "completed": 0,
+          "percent_completed": 0
+        },
+        "issue_dependencies_summary": {
+          "blocked_by": 0,
+          "total_blocked_by": 0,
+          "blocking": 0,
+          "total_blocking": 0
+        },
+        "body": "### What version of Bun is running?\n\n1.0.11\n\n### What platform is your computer?\n\nDarwin 23.2.0 arm64 arm\n\n### What steps can reproduce the bug?\n\nRun the following web server:\r\n\r\n```typescript\r\nexport default {\r\n  async fetch(req: Request) {\r\n    return fetch(\"https://httpbin.org/post\", {\r\n      method: \"POST\",\r\n      body: req.body,\r\n    });\r\n  },\r\n};\r\n```\r\n\r\nAnd send request to it:\r\n\r\n```\r\n$ curl -d \"hello\" localhost:3000\r\n{\r\n  \"args\": {}, \r\n  \"data\": \"\", \r\n  \"files\": {}, \r\n  \"form\": {}, \r\n  \"headers\": {\r\n    \"Accept\": \"*/*\", \r\n    \"Accept-Encoding\": \"gzip, deflate\", \r\n    \"Content-Length\": \"0\", \r\n    \"Host\": \"httpbin.org\", \r\n    \"User-Agent\": \"Bun/1.0.11\", \r\n    \"X-Amzn-Trace-Id\": \"Root=1-6554ab89-64fd3b082d5b833d62d005c1\"\r\n  }, \r\n  \"json\": null, \r\n  \"origin\": \"***.***.***.***\", \r\n  \"url\": \"https://httpbin.org/post\"\r\n}\r\n```\r\n\r\nThe request body is not forwarded properly.\n\n### What is the expected behavior?\n\nThe request body should be forwarded. In the `curl` example, the \"data\" field should be \"hello\" instead of empty string.\n\n### What do you see instead?\n\nThe request body is not forwarded properly. In the `curl` example, the \"data\" field is an empty string.\n\n### Additional information\n\nBut if we try:\r\n\r\n```typescript\r\nbody: await req.text()\r\n```\r\n\r\nThe request body can be forwarded. So this issue may be related to how Bun handles incoming request body stream.\r\n\r\nI also tested forwarding stream from a `Response` returned by `fetch`, and it works as expected. So this issue is specific to the body stream of `Request`.",
+        "reactions": {
+          "url": "https://api.github.com/repos/oven-sh/bun/issues/7135/reactions",
+          "total_count": 10,
+          "+1": 10,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/oven-sh/bun/issues/7135/timeline",
+        "performed_via_github_app": null,
+        "state_reason": "completed",
+        "pinned_comment": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-03-02T17:20:57Z",
+    "org": {
+      "id": 108928776,
+      "login": "oven-sh",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/oven-sh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/108928776?"
+    }
+  },
+  {
+    "id": "6960173991",
+    "type": "PullRequestReviewEvent",
+    "actor": {
+      "id": 6379399,
+      "login": "cirospaciari",
+      "display_login": "cirospaciari",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cirospaciari",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6379399?"
+    },
+    "repo": {
+      "id": 6093316,
+      "name": "DefinitelyTyped/DefinitelyTyped",
+      "url": "https://api.github.com/repos/DefinitelyTyped/DefinitelyTyped"
+    },
+    "payload": {
+      "review": {
+        "id": 3869904238,
+        "node_id": "PRR_kwDOAFz6BM7mqg1u",
+        "user": {
+          "login": "cirospaciari",
+          "id": 6379399,
+          "node_id": "MDQ6VXNlcjYzNzkzOTk=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/6379399?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/cirospaciari",
+          "html_url": "https://github.com/cirospaciari",
+          "followers_url": "https://api.github.com/users/cirospaciari/followers",
+          "following_url": "https://api.github.com/users/cirospaciari/following{/other_user}",
+          "gists_url": "https://api.github.com/users/cirospaciari/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/cirospaciari/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/cirospaciari/subscriptions",
+          "organizations_url": "https://api.github.com/users/cirospaciari/orgs",
+          "repos_url": "https://api.github.com/users/cirospaciari/repos",
+          "events_url": "https://api.github.com/users/cirospaciari/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/cirospaciari/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": null,
+        "commit_id": "dda3c54acc20bb38ceb5ffa7933efdda050f3416",
+        "submitted_at": "2026-02-28T02:03:13Z",
+        "state": "approved",
+        "html_url": "https://github.com/DefinitelyTyped/DefinitelyTyped/pull/74604#pullrequestreview-3869904238",
+        "pull_request_url": "https://api.github.com/repos/DefinitelyTyped/DefinitelyTyped/pulls/74604",
+        "_links": {
+          "html": {
+            "href": "https://github.com/DefinitelyTyped/DefinitelyTyped/pull/74604#pullrequestreview-3869904238"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/DefinitelyTyped/DefinitelyTyped/pulls/74604"
+          }
+        },
+        "updated_at": "2026-02-28T02:03:13Z"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/DefinitelyTyped/DefinitelyTyped/pulls/74604",
+        "id": 3337962341,
+        "number": 74604,
+        "head": {
+          "ref": "bun-v1.3.10",
+          "sha": "dda3c54acc20bb38ceb5ffa7933efdda050f3416",
+          "repo": {
+            "id": 817900006,
+            "url": "https://api.github.com/repos/dylan-conway/DefinitelyTyped",
+            "name": "DefinitelyTyped"
+          }
+        },
+        "base": {
+          "ref": "master",
+          "sha": "543c8b0b1e8a8dd99e33b45c6cd17f7dd676895a",
+          "repo": {
+            "id": 6093316,
+            "url": "https://api.github.com/repos/DefinitelyTyped/DefinitelyTyped",
+            "name": "DefinitelyTyped"
+          }
+        }
+      },
+      "action": "created"
+    },
+    "public": true,
+    "created_at": "2026-02-28T02:03:15Z",
+    "org": {
+      "id": 3637556,
+      "login": "DefinitelyTyped",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/DefinitelyTyped",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3637556?"
+    }
+  },
+  {
+    "id": "6927124661",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 6379399,
+      "login": "cirospaciari",
+      "display_login": "cirospaciari",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cirospaciari",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6379399?"
+    },
+    "repo": {
+      "id": 930459670,
+      "name": "AmanVarshney01/create-better-t-stack",
+      "url": "https://api.github.com/repos/AmanVarshney01/create-better-t-stack"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2026-02-27T00:08:26Z"
+  },
+  {
+    "id": "6890251008",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 6379399,
+      "login": "cirospaciari",
+      "display_login": "cirospaciari",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cirospaciari",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6379399?"
+    },
+    "repo": {
+      "id": 357728969,
+      "name": "oven-sh/bun",
+      "url": "https://api.github.com/repos/oven-sh/bun"
+    },
+    "payload": {
+      "action": "merged",
+      "number": 27385,
+      "pull_request": {
+        "url": "https://api.github.com/repos/oven-sh/bun/pulls/27385",
+        "id": 3318113366,
+        "number": 27385,
+        "head": {
+          "ref": "ciro/tls-config",
+          "sha": "36d211db7396ea186a97f4b61a336566276d7128",
+          "repo": {
+            "id": 357728969,
+            "url": "https://api.github.com/repos/oven-sh/bun",
+            "name": "bun"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "38e4340d28eb7a46ae745f813a8700b4ba3791b9",
+          "repo": {
+            "id": 357728969,
+            "url": "https://api.github.com/repos/oven-sh/bun",
+            "name": "bun"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-02-25T23:39:13Z",
+    "org": {
+      "id": 108928776,
+      "login": "oven-sh",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/oven-sh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/108928776?"
+    }
+  },
+  {
+    "id": "6884955113",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 6379399,
+      "login": "cirospaciari",
+      "display_login": "cirospaciari",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cirospaciari",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6379399?"
+    },
+    "repo": {
+      "id": 1046563574,
+      "name": "Gabriel-Andraade/FarmXP_Browser",
+      "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser"
+    },
+    "payload": {
+      "action": "closed",
+      "issue": {
+        "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/116",
+        "repository_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser",
+        "labels_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/116/labels{/name}",
+        "comments_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/116/comments",
+        "events_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/116/events",
+        "html_url": "https://github.com/Gabriel-Andraade/FarmXP_Browser/issues/116",
+        "id": 3969832027,
+        "node_id": "I_kwDOPmFK9s7sntRb",
+        "number": 116,
+        "title": "Bug: Animals may not update collision position when moving",
+        "user": {
+          "login": "cirospaciari",
+          "id": 6379399,
+          "node_id": "MDQ6VXNlcjYzNzkzOTk=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/6379399?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/cirospaciari",
+          "html_url": "https://github.com/cirospaciari",
+          "followers_url": "https://api.github.com/users/cirospaciari/followers",
+          "following_url": "https://api.github.com/users/cirospaciari/following{/other_user}",
+          "gists_url": "https://api.github.com/users/cirospaciari/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/cirospaciari/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/cirospaciari/subscriptions",
+          "organizations_url": "https://api.github.com/users/cirospaciari/orgs",
+          "repos_url": "https://api.github.com/users/cirospaciari/repos",
+          "events_url": "https://api.github.com/users/cirospaciari/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/cirospaciari/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "id": 9188635752,
+            "node_id": "LA_kwDOPmFK9s8AAAACI690aA",
+            "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/labels/bug",
+            "name": "bug",
+            "color": "d73a4a",
+            "default": true,
+            "description": "Something isn't working"
+          },
+          {
+            "id": 10032818329,
+            "node_id": "LA_kwDOPmFK9s8AAAACVgComQ",
+            "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/labels/medium-priority",
+            "name": "medium-priority",
+            "color": "fbca04",
+            "default": false,
+            "description": "Medium priority issue"
+          }
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignees": [
+          {
+            "login": "Gabriel-Andraade",
+            "id": 185098642,
+            "node_id": "U_kgDOCwhhkg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/185098642?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Gabriel-Andraade",
+            "html_url": "https://github.com/Gabriel-Andraade",
+            "followers_url": "https://api.github.com/users/Gabriel-Andraade/followers",
+            "following_url": "https://api.github.com/users/Gabriel-Andraade/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Gabriel-Andraade/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Gabriel-Andraade/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Gabriel-Andraade/subscriptions",
+            "organizations_url": "https://api.github.com/users/Gabriel-Andraade/orgs",
+            "repos_url": "https://api.github.com/users/Gabriel-Andraade/repos",
+            "events_url": "https://api.github.com/users/Gabriel-Andraade/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Gabriel-Andraade/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        ],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2026-02-20T18:29:27Z",
+        "updated_at": "2026-02-25T20:13:30Z",
+        "closed_at": "2026-02-25T20:13:30Z",
+        "assignee": {
+          "login": "Gabriel-Andraade",
+          "id": 185098642,
+          "node_id": "U_kgDOCwhhkg",
+          "avatar_url": "https://avatars.githubusercontent.com/u/185098642?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Gabriel-Andraade",
+          "html_url": "https://github.com/Gabriel-Andraade",
+          "followers_url": "https://api.github.com/users/Gabriel-Andraade/followers",
+          "following_url": "https://api.github.com/users/Gabriel-Andraade/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Gabriel-Andraade/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Gabriel-Andraade/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Gabriel-Andraade/subscriptions",
+          "organizations_url": "https://api.github.com/users/Gabriel-Andraade/orgs",
+          "repos_url": "https://api.github.com/users/Gabriel-Andraade/repos",
+          "events_url": "https://api.github.com/users/Gabriel-Andraade/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Gabriel-Andraade/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "active_lock_reason": null,
+        "sub_issues_summary": {
+          "total": 0,
+          "completed": 0,
+          "percent_completed": 0
+        },
+        "issue_dependencies_summary": {
+          "blocked_by": 0,
+          "total_blocked_by": 0,
+          "blocking": 0,
+          "total_blocking": 0
+        },
+        "body": "## Description\n\nThe collision system provides `updateHitboxPosition()` for moving objects, but it's unclear whether animal movement in `animalAI.js` calls it. If animals don't update their hitbox position when moving, collision detection uses stale positions.\n\n### Location\n- `public/scripts/collisionSystem.js` — has `updateHitboxPosition()` method\n- `public/scripts/animal/animalAI.js` — `move()` method updates `this.x`/`this.y`\n\n### Problem\nThe `SpatialGrid.insert()` is called when objects are created, and `updateHitboxPosition()` exists for updates. However:\n1. Animals update their `x`/`y` position in `move()` every frame\n2. If `move()` doesn't call `collisionSystem.updateHitboxPosition()`, the spatial grid still has the old position\n3. This would cause missed collision detection — animals at new positions but grid entries pointing to old positions\n\n### Investigation needed\nVerify whether `animalAI.move()` calls `collisionSystem.updateHitboxPosition()` or equivalent. If not, collisions with moving animals are broken.\n\n### Suggested Fix\nEnsure `move()` updates the collision system:\n```js\nmove() {\n    // ... update this.x, this.y ...\n    const collision = getSystem('collision');\n    if (collision) {\n        collision.updateHitboxPosition(this.id, this.x, this.y);\n    }\n}\n```\n\n### Impact\n- **Severity:** MEDIUM — potential missed collisions with moving animals",
+        "reactions": {
+          "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/116/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/116/timeline",
+        "performed_via_github_app": null,
+        "state_reason": "completed",
+        "pinned_comment": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-02-25T20:13:30Z"
+  },
+  {
+    "id": "6854099286",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 6379399,
+      "login": "cirospaciari",
+      "display_login": "cirospaciari",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cirospaciari",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6379399?"
+    },
+    "repo": {
+      "id": 357728969,
+      "name": "oven-sh/bun",
+      "url": "https://api.github.com/repos/oven-sh/bun"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 27408,
+      "pull_request": {
+        "url": "https://api.github.com/repos/oven-sh/bun/pulls/27408",
+        "id": 3322301178,
+        "number": 27408,
+        "head": {
+          "ref": "claude/fetch-vm-shutdown-guard",
+          "sha": "ecefdc880b8530e0400f997ff65b41f0f8c65f57",
+          "repo": {
+            "id": 357728969,
+            "url": "https://api.github.com/repos/oven-sh/bun",
+            "name": "bun"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "38e4340d28eb7a46ae745f813a8700b4ba3791b9",
+          "repo": {
+            "id": 357728969,
+            "url": "https://api.github.com/repos/oven-sh/bun",
+            "name": "bun"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-02-24T22:54:47Z",
+    "org": {
+      "id": 108928776,
+      "login": "oven-sh",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/oven-sh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/108928776?"
+    }
+  },
+  {
+    "id": "6853506824",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 6379399,
+      "login": "cirospaciari",
+      "display_login": "cirospaciari",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cirospaciari",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6379399?"
+    },
+    "repo": {
+      "id": 1046563574,
+      "name": "Gabriel-Andraade/FarmXP_Browser",
+      "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser"
+    },
+    "payload": {
+      "action": "closed",
+      "issue": {
+        "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/120",
+        "repository_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser",
+        "labels_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/120/labels{/name}",
+        "comments_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/120/comments",
+        "events_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/120/events",
+        "html_url": "https://github.com/Gabriel-Andraade/FarmXP_Browser/issues/120",
+        "id": 3969834529,
+        "node_id": "I_kwDOPmFK9s7snt4h",
+        "number": 120,
+        "title": "Refactor: Character module loading uses fragile convention-based exports",
+        "user": {
+          "login": "cirospaciari",
+          "id": 6379399,
+          "node_id": "MDQ6VXNlcjYzNzkzOTk=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/6379399?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/cirospaciari",
+          "html_url": "https://github.com/cirospaciari",
+          "followers_url": "https://api.github.com/users/cirospaciari/followers",
+          "following_url": "https://api.github.com/users/cirospaciari/following{/other_user}",
+          "gists_url": "https://api.github.com/users/cirospaciari/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/cirospaciari/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/cirospaciari/subscriptions",
+          "organizations_url": "https://api.github.com/users/cirospaciari/orgs",
+          "repos_url": "https://api.github.com/users/cirospaciari/repos",
+          "events_url": "https://api.github.com/users/cirospaciari/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/cirospaciari/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "id": 10032818329,
+            "node_id": "LA_kwDOPmFK9s8AAAACVgComQ",
+            "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/labels/medium-priority",
+            "name": "medium-priority",
+            "color": "fbca04",
+            "default": false,
+            "description": "Medium priority issue"
+          },
+          {
+            "id": 10032818795,
+            "node_id": "LA_kwDOPmFK9s8AAAACVgCqaw",
+            "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/labels/refactoring",
+            "name": "refactoring",
+            "color": "d4c5f9",
+            "default": false,
+            "description": "Code refactoring"
+          }
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignees": [
+          {
+            "login": "Gabriel-Andraade",
+            "id": 185098642,
+            "node_id": "U_kgDOCwhhkg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/185098642?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Gabriel-Andraade",
+            "html_url": "https://github.com/Gabriel-Andraade",
+            "followers_url": "https://api.github.com/users/Gabriel-Andraade/followers",
+            "following_url": "https://api.github.com/users/Gabriel-Andraade/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Gabriel-Andraade/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Gabriel-Andraade/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Gabriel-Andraade/subscriptions",
+            "organizations_url": "https://api.github.com/users/Gabriel-Andraade/orgs",
+            "repos_url": "https://api.github.com/users/Gabriel-Andraade/repos",
+            "events_url": "https://api.github.com/users/Gabriel-Andraade/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Gabriel-Andraade/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        ],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2026-02-20T18:30:05Z",
+        "updated_at": "2026-02-25T00:51:12Z",
+        "closed_at": "2026-02-25T00:51:12Z",
+        "assignee": {
+          "login": "Gabriel-Andraade",
+          "id": 185098642,
+          "node_id": "U_kgDOCwhhkg",
+          "avatar_url": "https://avatars.githubusercontent.com/u/185098642?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Gabriel-Andraade",
+          "html_url": "https://github.com/Gabriel-Andraade",
+          "followers_url": "https://api.github.com/users/Gabriel-Andraade/followers",
+          "following_url": "https://api.github.com/users/Gabriel-Andraade/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Gabriel-Andraade/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Gabriel-Andraade/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Gabriel-Andraade/subscriptions",
+          "organizations_url": "https://api.github.com/users/Gabriel-Andraade/orgs",
+          "repos_url": "https://api.github.com/users/Gabriel-Andraade/repos",
+          "events_url": "https://api.github.com/users/Gabriel-Andraade/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Gabriel-Andraade/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "active_lock_reason": null,
+        "sub_issues_summary": {
+          "total": 0,
+          "completed": 0,
+          "percent_completed": 0
+        },
+        "issue_dependencies_summary": {
+          "blocked_by": 0,
+          "total_blocked_by": 0,
+          "blocking": 0,
+          "total_blocking": 0
+        },
+        "body": "## Description\n\n`playerSystem.js` loads character modules using naming conventions with no validation that the expected exports exist.\n\n### Location\n`public/scripts/thePlayer/playerSystem.js` lines 597–599\n\n### Code\n```js\nconst name = config.name; // 'Stella', 'Ben', 'Graham'\nthis.currentPlayer = characterModule[characterId]; // stella, ben, graham\nthis.updateFunction = characterModule[`update${name}`];\nthis.drawFunction = characterModule[`draw${name}`];\n\nif (!this.currentPlayer || !this.updateFunction || !this.drawFunction) {\n    throw new Error(`Character module '${characterId}' is missing expected exports`);\n}\n```\n\n### Problem\n- Character loading relies on a naming convention: entity = `characterId`, update = `update${Name}`, draw = `draw${Name}`\n- The validation check throws a generic error, but:\n  - A typo in the character config (e.g., `name: 'stella'` lowercase) silently produces wrong export names (`updatestella` instead of `updateStella`)\n  - Adding a new character requires knowing this undocumented convention\n  - No type checking or IDE autocomplete support for dynamic property access\n- The error message helps debugging, but the fragile pattern invites bugs\n\n### Suggested Fix\nUse a standardized export pattern:\n```js\n// In character module:\nexport default {\n    entity: stella,\n    update: updateStella,\n    draw: drawStella\n};\n\n// In playerSystem:\nthis.currentPlayer = characterModule.entity;\nthis.updateFunction = characterModule.update;\nthis.drawFunction = characterModule.draw;\n```\n\n### Impact\n- **Severity:** MEDIUM — fragile pattern that breaks silently on naming mismatches",
+        "reactions": {
+          "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/120/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/120/timeline",
+        "performed_via_github_app": null,
+        "state_reason": "completed",
+        "pinned_comment": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-02-25T00:51:13Z"
+  },
+  {
+    "id": "6853501219",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 6379399,
+      "login": "cirospaciari",
+      "display_login": "cirospaciari",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cirospaciari",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6379399?"
+    },
+    "repo": {
+      "id": 1046563574,
+      "name": "Gabriel-Andraade/FarmXP_Browser",
+      "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser"
+    },
+    "payload": {
+      "action": "closed",
+      "issue": {
+        "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/119",
+        "repository_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser",
+        "labels_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/119/labels{/name}",
+        "comments_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/119/comments",
+        "events_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/119/events",
+        "html_url": "https://github.com/Gabriel-Andraade/FarmXP_Browser/issues/119",
+        "id": 3969833818,
+        "node_id": "I_kwDOPmFK9s7sntta",
+        "number": 119,
+        "title": "Bug: Control module DOMContentLoaded listener may miss if loaded late",
+        "user": {
+          "login": "cirospaciari",
+          "id": 6379399,
+          "node_id": "MDQ6VXNlcjYzNzkzOTk=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/6379399?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/cirospaciari",
+          "html_url": "https://github.com/cirospaciari",
+          "followers_url": "https://api.github.com/users/cirospaciari/followers",
+          "following_url": "https://api.github.com/users/cirospaciari/following{/other_user}",
+          "gists_url": "https://api.github.com/users/cirospaciari/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/cirospaciari/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/cirospaciari/subscriptions",
+          "organizations_url": "https://api.github.com/users/cirospaciari/orgs",
+          "repos_url": "https://api.github.com/users/cirospaciari/repos",
+          "events_url": "https://api.github.com/users/cirospaciari/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/cirospaciari/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "id": 9188635752,
+            "node_id": "LA_kwDOPmFK9s8AAAACI690aA",
+            "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/labels/bug",
+            "name": "bug",
+            "color": "d73a4a",
+            "default": true,
+            "description": "Something isn't working"
+          },
+          {
+            "id": 10032818329,
+            "node_id": "LA_kwDOPmFK9s8AAAACVgComQ",
+            "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/labels/medium-priority",
+            "name": "medium-priority",
+            "color": "fbca04",
+            "default": false,
+            "description": "Medium priority issue"
+          }
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignees": [
+          {
+            "login": "Gabriel-Andraade",
+            "id": 185098642,
+            "node_id": "U_kgDOCwhhkg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/185098642?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Gabriel-Andraade",
+            "html_url": "https://github.com/Gabriel-Andraade",
+            "followers_url": "https://api.github.com/users/Gabriel-Andraade/followers",
+            "following_url": "https://api.github.com/users/Gabriel-Andraade/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Gabriel-Andraade/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Gabriel-Andraade/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Gabriel-Andraade/subscriptions",
+            "organizations_url": "https://api.github.com/users/Gabriel-Andraade/orgs",
+            "repos_url": "https://api.github.com/users/Gabriel-Andraade/repos",
+            "events_url": "https://api.github.com/users/Gabriel-Andraade/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Gabriel-Andraade/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        ],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2026-02-20T18:29:55Z",
+        "updated_at": "2026-02-25T00:50:53Z",
+        "closed_at": "2026-02-25T00:50:53Z",
+        "assignee": {
+          "login": "Gabriel-Andraade",
+          "id": 185098642,
+          "node_id": "U_kgDOCwhhkg",
+          "avatar_url": "https://avatars.githubusercontent.com/u/185098642?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Gabriel-Andraade",
+          "html_url": "https://github.com/Gabriel-Andraade",
+          "followers_url": "https://api.github.com/users/Gabriel-Andraade/followers",
+          "following_url": "https://api.github.com/users/Gabriel-Andraade/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Gabriel-Andraade/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Gabriel-Andraade/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Gabriel-Andraade/subscriptions",
+          "organizations_url": "https://api.github.com/users/Gabriel-Andraade/orgs",
+          "repos_url": "https://api.github.com/users/Gabriel-Andraade/repos",
+          "events_url": "https://api.github.com/users/Gabriel-Andraade/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Gabriel-Andraade/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "active_lock_reason": null,
+        "sub_issues_summary": {
+          "total": 0,
+          "completed": 0,
+          "percent_completed": 0
+        },
+        "issue_dependencies_summary": {
+          "blocked_by": 0,
+          "total_blocked_by": 0,
+          "blocking": 0,
+          "total_blocking": 0
+        },
+        "body": "## Description\n\nThe control module registers a `DOMContentLoaded` listener without checking `document.readyState` first. If the module loads after DOMContentLoaded has already fired, the listener never runs.\n\n### Location\n`public/scripts/thePlayer/control.js` lines 1015–1028\n\n### Code\n```js\ndocument.addEventListener('DOMContentLoaded', () => {\n    bootstrapKeybindsFromConfigUI();\n    setupInventoryControls();\n    setupUIShortcuts();\n\n    if (!isMobile()) {\n        ['mobile-interact-btn','joystick-area'].forEach(id => {\n            const el = document.getElementById(id);\n            if (el) el.style.display = 'none';\n        });\n    }\n}, { signal: controlsAbortController.signal });\n```\n\n### Problem\n- `DOMContentLoaded` fires only once, when the initial HTML document has been completely loaded and parsed\n- If `control.js` is loaded as a deferred module or dynamically imported after the DOM is ready, this event has already fired\n- The callback never executes → `bootstrapKeybindsFromConfigUI()`, `setupInventoryControls()`, and `setupUIShortcuts()` are never called\n- Controls may not be fully initialized\n\n### Suggested Fix\nCheck `document.readyState` before registering the listener:\n```js\nfunction initControls() {\n    bootstrapKeybindsFromConfigUI();\n    setupInventoryControls();\n    setupUIShortcuts();\n    // ... mobile check\n}\n\nif (document.readyState === 'loading') {\n    document.addEventListener('DOMContentLoaded', initControls, { signal: controlsAbortController.signal });\n} else {\n    initControls();\n}\n```\n\n### Impact\n- **Severity:** MEDIUM — controls may not initialize if module loading order changes",
+        "reactions": {
+          "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/119/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/119/timeline",
+        "performed_via_github_app": null,
+        "state_reason": "completed",
+        "pinned_comment": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-02-25T00:50:54Z"
+  },
+  {
+    "id": "6853497747",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 6379399,
+      "login": "cirospaciari",
+      "display_login": "cirospaciari",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cirospaciari",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6379399?"
+    },
+    "repo": {
+      "id": 1046563574,
+      "name": "Gabriel-Andraade/FarmXP_Browser",
+      "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser"
+    },
+    "payload": {
+      "action": "closed",
+      "issue": {
+        "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/118",
+        "repository_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser",
+        "labels_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/118/labels{/name}",
+        "comments_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/118/comments",
+        "events_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/118/events",
+        "html_url": "https://github.com/Gabriel-Andraade/FarmXP_Browser/issues/118",
+        "id": 3969833318,
+        "node_id": "I_kwDOPmFK9s7sntlm",
+        "number": 118,
+        "title": "Bug: SFX cooldown resets even when audio fails to play",
+        "user": {
+          "login": "cirospaciari",
+          "id": 6379399,
+          "node_id": "MDQ6VXNlcjYzNzkzOTk=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/6379399?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/cirospaciari",
+          "html_url": "https://github.com/cirospaciari",
+          "followers_url": "https://api.github.com/users/cirospaciari/followers",
+          "following_url": "https://api.github.com/users/cirospaciari/following{/other_user}",
+          "gists_url": "https://api.github.com/users/cirospaciari/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/cirospaciari/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/cirospaciari/subscriptions",
+          "organizations_url": "https://api.github.com/users/cirospaciari/orgs",
+          "repos_url": "https://api.github.com/users/cirospaciari/repos",
+          "events_url": "https://api.github.com/users/cirospaciari/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/cirospaciari/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "id": 9188635752,
+            "node_id": "LA_kwDOPmFK9s8AAAACI690aA",
+            "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/labels/bug",
+            "name": "bug",
+            "color": "d73a4a",
+            "default": true,
+            "description": "Something isn't working"
+          },
+          {
+            "id": 10032818329,
+            "node_id": "LA_kwDOPmFK9s8AAAACVgComQ",
+            "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/labels/medium-priority",
+            "name": "medium-priority",
+            "color": "fbca04",
+            "default": false,
+            "description": "Medium priority issue"
+          }
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignees": [
+          {
+            "login": "Gabriel-Andraade",
+            "id": 185098642,
+            "node_id": "U_kgDOCwhhkg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/185098642?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Gabriel-Andraade",
+            "html_url": "https://github.com/Gabriel-Andraade",
+            "followers_url": "https://api.github.com/users/Gabriel-Andraade/followers",
+            "following_url": "https://api.github.com/users/Gabriel-Andraade/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Gabriel-Andraade/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Gabriel-Andraade/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Gabriel-Andraade/subscriptions",
+            "organizations_url": "https://api.github.com/users/Gabriel-Andraade/orgs",
+            "repos_url": "https://api.github.com/users/Gabriel-Andraade/repos",
+            "events_url": "https://api.github.com/users/Gabriel-Andraade/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Gabriel-Andraade/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        ],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2026-02-20T18:29:46Z",
+        "updated_at": "2026-02-25T00:50:42Z",
+        "closed_at": "2026-02-25T00:50:42Z",
+        "assignee": {
+          "login": "Gabriel-Andraade",
+          "id": 185098642,
+          "node_id": "U_kgDOCwhhkg",
+          "avatar_url": "https://avatars.githubusercontent.com/u/185098642?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Gabriel-Andraade",
+          "html_url": "https://github.com/Gabriel-Andraade",
+          "followers_url": "https://api.github.com/users/Gabriel-Andraade/followers",
+          "following_url": "https://api.github.com/users/Gabriel-Andraade/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Gabriel-Andraade/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Gabriel-Andraade/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Gabriel-Andraade/subscriptions",
+          "organizations_url": "https://api.github.com/users/Gabriel-Andraade/orgs",
+          "repos_url": "https://api.github.com/users/Gabriel-Andraade/repos",
+          "events_url": "https://api.github.com/users/Gabriel-Andraade/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Gabriel-Andraade/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "active_lock_reason": null,
+        "sub_issues_summary": {
+          "total": 0,
+          "completed": 0,
+          "percent_completed": 0
+        },
+        "issue_dependencies_summary": {
+          "blocked_by": 0,
+          "total_blocked_by": 0,
+          "blocking": 0,
+          "total_blocking": 0
+        },
+        "body": "## Description\n\nIn `animalAI.js`, the bull sound cooldown resets before confirming the sound actually played. If AudioManager isn't ready or fails, the cooldown still resets but no sound was heard.\n\n### Location\n`public/scripts/animal/animalAI.js` lines 204–217\n\n### Code\n```js\nif (this.assetName === 'Bull') {\n    const now = performance.now();\n    if (now - this._lastSfxTime >= this._sfxCooldownMs && Math.random() < 0.25) {\n        const audio = getSystem('audio');\n        if (audio && audio.playSfx3D) {\n            audio.playSfx3D('bull_bellow', this.x, this.y, { category: 'animal' });\n            this._lastSfxTime = now;\n            this._sfxCooldownMs = 20000 + Math.random() * 20000;\n        }\n    }\n}\n```\n\n### Problem\n- `playSfx3D` is called, then cooldown is immediately reset\n- If `playSfx3D` fails internally (AudioContext suspended, buffer not loaded, user gesture required), the cooldown is still consumed\n- The bull appears silent for 20–40 seconds even though no sound played\n- On the next check after cooldown, it may fail again — creating a cycle of silent cooldown resets\n\n### Suggested Fix\nCheck the return value of `playSfx3D` before resetting cooldown:\n```js\nconst played = audio.playSfx3D('bull_bellow', this.x, this.y, { category: 'animal' });\nif (played) {\n    this._lastSfxTime = now;\n    this._sfxCooldownMs = 20000 + Math.random() * 20000;\n}\n```\nThis requires `playSfx3D` to return a truthy value on success (or a Promise).\n\n### Impact\n- **Severity:** MEDIUM — bull sounds may be silently suppressed for extended periods",
+        "reactions": {
+          "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/118/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/118/timeline",
+        "performed_via_github_app": null,
+        "state_reason": "completed",
+        "pinned_comment": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-02-25T00:50:42Z"
+  },
+  {
+    "id": "6853495146",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 6379399,
+      "login": "cirospaciari",
+      "display_login": "cirospaciari",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cirospaciari",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6379399?"
+    },
+    "repo": {
+      "id": 1046563574,
+      "name": "Gabriel-Andraade/FarmXP_Browser",
+      "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser"
+    },
+    "payload": {
+      "action": "closed",
+      "issue": {
+        "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/117",
+        "repository_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser",
+        "labels_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/117/labels{/name}",
+        "comments_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/117/comments",
+        "events_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/117/events",
+        "html_url": "https://github.com/Gabriel-Andraade/FarmXP_Browser/issues/117",
+        "id": 3969832649,
+        "node_id": "I_kwDOPmFK9s7sntbJ",
+        "number": 117,
+        "title": "Bug: Weather season names not updated on language change",
+        "user": {
+          "login": "cirospaciari",
+          "id": 6379399,
+          "node_id": "MDQ6VXNlcjYzNzkzOTk=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/6379399?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/cirospaciari",
+          "html_url": "https://github.com/cirospaciari",
+          "followers_url": "https://api.github.com/users/cirospaciari/followers",
+          "following_url": "https://api.github.com/users/cirospaciari/following{/other_user}",
+          "gists_url": "https://api.github.com/users/cirospaciari/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/cirospaciari/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/cirospaciari/subscriptions",
+          "organizations_url": "https://api.github.com/users/cirospaciari/orgs",
+          "repos_url": "https://api.github.com/users/cirospaciari/repos",
+          "events_url": "https://api.github.com/users/cirospaciari/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/cirospaciari/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "id": 9188635752,
+            "node_id": "LA_kwDOPmFK9s8AAAACI690aA",
+            "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/labels/bug",
+            "name": "bug",
+            "color": "d73a4a",
+            "default": true,
+            "description": "Something isn't working"
+          },
+          {
+            "id": 10032818329,
+            "node_id": "LA_kwDOPmFK9s8AAAACVgComQ",
+            "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/labels/medium-priority",
+            "name": "medium-priority",
+            "color": "fbca04",
+            "default": false,
+            "description": "Medium priority issue"
+          },
+          {
+            "id": 10032819222,
+            "node_id": "LA_kwDOPmFK9s8AAAACVgCsFg",
+            "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/labels/internationalization",
+            "name": "internationalization",
+            "color": "006b75",
+            "default": false,
+            "description": "i18n/Localization"
+          }
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignees": [
+          {
+            "login": "Gabriel-Andraade",
+            "id": 185098642,
+            "node_id": "U_kgDOCwhhkg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/185098642?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Gabriel-Andraade",
+            "html_url": "https://github.com/Gabriel-Andraade",
+            "followers_url": "https://api.github.com/users/Gabriel-Andraade/followers",
+            "following_url": "https://api.github.com/users/Gabriel-Andraade/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Gabriel-Andraade/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Gabriel-Andraade/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Gabriel-Andraade/subscriptions",
+            "organizations_url": "https://api.github.com/users/Gabriel-Andraade/orgs",
+            "repos_url": "https://api.github.com/users/Gabriel-Andraade/repos",
+            "events_url": "https://api.github.com/users/Gabriel-Andraade/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Gabriel-Andraade/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        ],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2026-02-20T18:29:36Z",
+        "updated_at": "2026-02-25T00:50:33Z",
+        "closed_at": "2026-02-25T00:50:33Z",
+        "assignee": {
+          "login": "Gabriel-Andraade",
+          "id": 185098642,
+          "node_id": "U_kgDOCwhhkg",
+          "avatar_url": "https://avatars.githubusercontent.com/u/185098642?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Gabriel-Andraade",
+          "html_url": "https://github.com/Gabriel-Andraade",
+          "followers_url": "https://api.github.com/users/Gabriel-Andraade/followers",
+          "following_url": "https://api.github.com/users/Gabriel-Andraade/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Gabriel-Andraade/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Gabriel-Andraade/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Gabriel-Andraade/subscriptions",
+          "organizations_url": "https://api.github.com/users/Gabriel-Andraade/orgs",
+          "repos_url": "https://api.github.com/users/Gabriel-Andraade/repos",
+          "events_url": "https://api.github.com/users/Gabriel-Andraade/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Gabriel-Andraade/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "active_lock_reason": null,
+        "sub_issues_summary": {
+          "total": 0,
+          "completed": 0,
+          "percent_completed": 0
+        },
+        "issue_dependencies_summary": {
+          "blocked_by": 0,
+          "total_blocked_by": 0,
+          "blocking": 0,
+          "total_blocking": 0
+        },
+        "body": "## Description\n\nThe `WeatherSystem` doesn't listen for `languageChanged` events. Season names displayed in the UI stay in the old language after switching.\n\n### Location\n`public/scripts/weather.js` lines 94–114\n\n### Code\n```js\nfunction updateWeatherUIPanelContent() {\n  const els = _getWuiElements();\n  if (!els) return;\n\n  if (els.time) els.time.textContent = WeatherSystem.getTimeString();\n  if (els.weekday) els.weekday.textContent = WeatherSystem.getWeekday();\n  if (els.day) els.day.textContent = String(WeatherSystem.day);\n  if (els.season) els.season.textContent = WeatherSystem.getSeasonName();\n\n  // Update labels for language changes\n  if (els.dayLabel) els.dayLabel.textContent = `${t('time.dayLabel')}:`;\n  if (els.seasonLabel) els.seasonLabel.textContent = `${t('time.seasonLabel')}:`;\n  if (els.weatherLabel) els.weatherLabel.textContent = `${t('time.weatherLabel')}:`;\n  // ...\n}\n```\n\n### Problem\n- `updateWeatherUIPanelContent()` is called on each frame/tick to update time\n- Labels (`dayLabel`, `seasonLabel`, `weatherLabel`) use `t()` so they update dynamically\n- However, `getSeasonName()` and `getWeekday()` may return cached/pre-computed values\n- If these methods cache the translated string, it won't update when language changes\n- The weather system has no `languageChanged` event listener to force a re-render\n\n### Suggested Fix\nAdd a `languageChanged` listener in the weather system initialization:\n```js\ndocument.addEventListener('languageChanged', () => {\n    // Force refresh of any cached translated strings\n    updateWeatherUIPanelContent();\n});\n```\n\n### Impact\n- **Severity:** MEDIUM — weather panel shows mixed languages after language switch",
+        "reactions": {
+          "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/117/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/117/timeline",
+        "performed_via_github_app": null,
+        "state_reason": "completed",
+        "pinned_comment": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-02-25T00:50:34Z"
+  },
+  {
+    "id": "6853493289",
+    "type": "PullRequestReviewEvent",
+    "actor": {
+      "id": 6379399,
+      "login": "cirospaciari",
+      "display_login": "cirospaciari",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cirospaciari",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6379399?"
+    },
+    "repo": {
+      "id": 1046563574,
+      "name": "Gabriel-Andraade/FarmXP_Browser",
+      "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser"
+    },
+    "payload": {
+      "review": {
+        "id": 3851261546,
+        "node_id": "PRR_kwDOPmFK9s7ljZZq",
+        "user": {
+          "login": "cirospaciari",
+          "id": 6379399,
+          "node_id": "MDQ6VXNlcjYzNzkzOTk=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/6379399?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/cirospaciari",
+          "html_url": "https://github.com/cirospaciari",
+          "followers_url": "https://api.github.com/users/cirospaciari/followers",
+          "following_url": "https://api.github.com/users/cirospaciari/following{/other_user}",
+          "gists_url": "https://api.github.com/users/cirospaciari/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/cirospaciari/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/cirospaciari/subscriptions",
+          "organizations_url": "https://api.github.com/users/cirospaciari/orgs",
+          "repos_url": "https://api.github.com/users/cirospaciari/repos",
+          "events_url": "https://api.github.com/users/cirospaciari/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/cirospaciari/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": "comments",
+        "commit_id": "f9b0055683d13cc56a366e29207d3358f9964d85",
+        "submitted_at": "2026-02-25T00:50:26Z",
+        "state": "changes_requested",
+        "html_url": "https://github.com/Gabriel-Andraade/FarmXP_Browser/pull/130#pullrequestreview-3851261546",
+        "pull_request_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/pulls/130",
+        "_links": {
+          "html": {
+            "href": "https://github.com/Gabriel-Andraade/FarmXP_Browser/pull/130#pullrequestreview-3851261546"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/pulls/130"
+          }
+        },
+        "updated_at": "2026-02-25T00:50:26Z"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/pulls/130",
+        "id": 3321121396,
+        "number": 130,
+        "head": {
+          "ref": "issue/116-animal-may-not-update-collision",
+          "sha": "2d3f8ce41335964ac8f9cbfb09d64c139ec88117",
+          "repo": {
+            "id": 1046563574,
+            "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser",
+            "name": "FarmXP_Browser"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "6b39d8051a066fab7b9ae45567738a5a4ce81ef5",
+          "repo": {
+            "id": 1046563574,
+            "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser",
+            "name": "FarmXP_Browser"
+          }
+        }
+      },
+      "action": "created"
+    },
+    "public": true,
+    "created_at": "2026-02-25T00:50:28Z"
+  },
+  {
+    "id": "6853484585",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 6379399,
+      "login": "cirospaciari",
+      "display_login": "cirospaciari",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cirospaciari",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6379399?"
+    },
+    "repo": {
+      "id": 1046563574,
+      "name": "Gabriel-Andraade/FarmXP_Browser",
+      "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser"
+    },
+    "payload": {
+      "action": "closed",
+      "issue": {
+        "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/115",
+        "repository_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser",
+        "labels_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/115/labels{/name}",
+        "comments_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/115/comments",
+        "events_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/115/events",
+        "html_url": "https://github.com/Gabriel-Andraade/FarmXP_Browser/issues/115",
+        "id": 3969831594,
+        "node_id": "I_kwDOPmFK9s7sntKq",
+        "number": 115,
+        "title": "Bug: Animal AI frame index not reset on state change",
+        "user": {
+          "login": "cirospaciari",
+          "id": 6379399,
+          "node_id": "MDQ6VXNlcjYzNzkzOTk=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/6379399?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/cirospaciari",
+          "html_url": "https://github.com/cirospaciari",
+          "followers_url": "https://api.github.com/users/cirospaciari/followers",
+          "following_url": "https://api.github.com/users/cirospaciari/following{/other_user}",
+          "gists_url": "https://api.github.com/users/cirospaciari/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/cirospaciari/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/cirospaciari/subscriptions",
+          "organizations_url": "https://api.github.com/users/cirospaciari/orgs",
+          "repos_url": "https://api.github.com/users/cirospaciari/repos",
+          "events_url": "https://api.github.com/users/cirospaciari/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/cirospaciari/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "id": 9188635752,
+            "node_id": "LA_kwDOPmFK9s8AAAACI690aA",
+            "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/labels/bug",
+            "name": "bug",
+            "color": "d73a4a",
+            "default": true,
+            "description": "Something isn't working"
+          },
+          {
+            "id": 10032818329,
+            "node_id": "LA_kwDOPmFK9s8AAAACVgComQ",
+            "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/labels/medium-priority",
+            "name": "medium-priority",
+            "color": "fbca04",
+            "default": false,
+            "description": "Medium priority issue"
+          }
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignees": [
+          {
+            "login": "Gabriel-Andraade",
+            "id": 185098642,
+            "node_id": "U_kgDOCwhhkg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/185098642?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Gabriel-Andraade",
+            "html_url": "https://github.com/Gabriel-Andraade",
+            "followers_url": "https://api.github.com/users/Gabriel-Andraade/followers",
+            "following_url": "https://api.github.com/users/Gabriel-Andraade/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Gabriel-Andraade/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Gabriel-Andraade/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Gabriel-Andraade/subscriptions",
+            "organizations_url": "https://api.github.com/users/Gabriel-Andraade/orgs",
+            "repos_url": "https://api.github.com/users/Gabriel-Andraade/repos",
+            "events_url": "https://api.github.com/users/Gabriel-Andraade/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Gabriel-Andraade/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        ],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2026-02-20T18:29:19Z",
+        "updated_at": "2026-02-25T00:49:57Z",
+        "closed_at": "2026-02-25T00:49:57Z",
+        "assignee": {
+          "login": "Gabriel-Andraade",
+          "id": 185098642,
+          "node_id": "U_kgDOCwhhkg",
+          "avatar_url": "https://avatars.githubusercontent.com/u/185098642?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Gabriel-Andraade",
+          "html_url": "https://github.com/Gabriel-Andraade",
+          "followers_url": "https://api.github.com/users/Gabriel-Andraade/followers",
+          "following_url": "https://api.github.com/users/Gabriel-Andraade/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Gabriel-Andraade/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Gabriel-Andraade/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Gabriel-Andraade/subscriptions",
+          "organizations_url": "https://api.github.com/users/Gabriel-Andraade/orgs",
+          "repos_url": "https://api.github.com/users/Gabriel-Andraade/repos",
+          "events_url": "https://api.github.com/users/Gabriel-Andraade/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Gabriel-Andraade/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "active_lock_reason": null,
+        "sub_issues_summary": {
+          "total": 0,
+          "completed": 0,
+          "percent_completed": 0
+        },
+        "issue_dependencies_summary": {
+          "blocked_by": 0,
+          "total_blocked_by": 0,
+          "blocking": 0,
+          "total_blocking": 0
+        },
+        "body": "## Description\n\nWhen `pickNewState()` is called in `animalAI.js`, `this.frameIndex` is not reset to 0. This causes frame skipping and visual glitches when animation state changes mid-sequence.\n\n### Location\n`public/scripts/animal/animalAI.js` lines 167–180, 190–210\n\n### Code\n```js\nupdate() {\n    const now = performance.now();\n    if (now - this.stateTimer > this.stateDuration) {\n        this.pickNewState();  // ← frameIndex not reset here\n        this.stateTimer = now;\n    }\n    if (this.state === AnimalState.MOVE) {\n        this.move();\n    }\n    this.updateAnimation(now);\n}\n\npickNewState() {\n    if (Math.random() > 0.6) {\n        this.state = AnimalState.MOVE;\n        // ... sets target position, duration\n    } else {\n        this.state = AnimalState.IDLE;\n        // ... sets duration\n    }\n    // ← frameIndex never reset to 0\n}\n```\n\n### Problem\n- When switching from MOVE → IDLE (or vice versa), the frame index from the previous animation state carries over\n- If the previous animation had 8 frames and was at frame 6, and the new state's animation only has 4 frames, the index is out of bounds\n- Results in visual glitches: wrong frame displayed, animation skipping, or blank frames\n\n### Suggested Fix\nReset frame index at the start of `pickNewState()`:\n```js\npickNewState() {\n    this.frameIndex = 0;\n    // ... rest of state selection\n}\n```\n\n### Impact\n- **Severity:** MEDIUM — visual animation glitches on animals",
+        "reactions": {
+          "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/115/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/115/timeline",
+        "performed_via_github_app": null,
+        "state_reason": "completed",
+        "pinned_comment": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-02-25T00:49:58Z"
+  },
+  {
+    "id": "6853477958",
+    "type": "PullRequestReviewEvent",
+    "actor": {
+      "id": 6379399,
+      "login": "cirospaciari",
+      "display_login": "cirospaciari",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cirospaciari",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6379399?"
+    },
+    "repo": {
+      "id": 1046563574,
+      "name": "Gabriel-Andraade/FarmXP_Browser",
+      "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser"
+    },
+    "payload": {
+      "review": {
+        "id": 3851259678,
+        "node_id": "PRR_kwDOPmFK9s7ljY8e",
+        "user": {
+          "login": "cirospaciari",
+          "id": 6379399,
+          "node_id": "MDQ6VXNlcjYzNzkzOTk=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/6379399?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/cirospaciari",
+          "html_url": "https://github.com/cirospaciari",
+          "followers_url": "https://api.github.com/users/cirospaciari/followers",
+          "following_url": "https://api.github.com/users/cirospaciari/following{/other_user}",
+          "gists_url": "https://api.github.com/users/cirospaciari/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/cirospaciari/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/cirospaciari/subscriptions",
+          "organizations_url": "https://api.github.com/users/cirospaciari/orgs",
+          "repos_url": "https://api.github.com/users/cirospaciari/repos",
+          "events_url": "https://api.github.com/users/cirospaciari/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/cirospaciari/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": "unsolved comments + conflicts",
+        "commit_id": "80cc7f668f6d2a9a5fb6f6544bf58f74f447adb9",
+        "submitted_at": "2026-02-25T00:49:34Z",
+        "state": "changes_requested",
+        "html_url": "https://github.com/Gabriel-Andraade/FarmXP_Browser/pull/128#pullrequestreview-3851259678",
+        "pull_request_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/pulls/128",
+        "_links": {
+          "html": {
+            "href": "https://github.com/Gabriel-Andraade/FarmXP_Browser/pull/128#pullrequestreview-3851259678"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/pulls/128"
+          }
+        },
+        "updated_at": "2026-02-25T00:49:34Z"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/pulls/128",
+        "id": 3320204790,
+        "number": 128,
+        "head": {
+          "ref": "issue/112-gameCleanup-missing-several-system",
+          "sha": "325c3cdb9210381095632f7182730d14ba7136cb",
+          "repo": {
+            "id": 1046563574,
+            "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser",
+            "name": "FarmXP_Browser"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "e57361ed56674cd8de8da25c426dff9c4d906d40",
+          "repo": {
+            "id": 1046563574,
+            "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser",
+            "name": "FarmXP_Browser"
+          }
+        }
+      },
+      "action": "created"
+    },
+    "public": true,
+    "created_at": "2026-02-25T00:49:35Z"
+  },
+  {
+    "id": "6853466747",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 6379399,
+      "login": "cirospaciari",
+      "display_login": "cirospaciari",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cirospaciari",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6379399?"
+    },
+    "repo": {
+      "id": 1046563574,
+      "name": "Gabriel-Andraade/FarmXP_Browser",
+      "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser"
+    },
+    "payload": {
+      "action": "closed",
+      "issue": {
+        "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/114",
+        "repository_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser",
+        "labels_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/114/labels{/name}",
+        "comments_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/114/comments",
+        "events_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/114/events",
+        "html_url": "https://github.com/Gabriel-Andraade/FarmXP_Browser/issues/114",
+        "id": 3969830733,
+        "node_id": "I_kwDOPmFK9s7sns9N",
+        "number": 114,
+        "title": "Bug: Save system cache not invalidated across browser tabs",
+        "user": {
+          "login": "cirospaciari",
+          "id": 6379399,
+          "node_id": "MDQ6VXNlcjYzNzkzOTk=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/6379399?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/cirospaciari",
+          "html_url": "https://github.com/cirospaciari",
+          "followers_url": "https://api.github.com/users/cirospaciari/followers",
+          "following_url": "https://api.github.com/users/cirospaciari/following{/other_user}",
+          "gists_url": "https://api.github.com/users/cirospaciari/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/cirospaciari/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/cirospaciari/subscriptions",
+          "organizations_url": "https://api.github.com/users/cirospaciari/orgs",
+          "repos_url": "https://api.github.com/users/cirospaciari/repos",
+          "events_url": "https://api.github.com/users/cirospaciari/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/cirospaciari/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "id": 9188635752,
+            "node_id": "LA_kwDOPmFK9s8AAAACI690aA",
+            "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/labels/bug",
+            "name": "bug",
+            "color": "d73a4a",
+            "default": true,
+            "description": "Something isn't working"
+          },
+          {
+            "id": 10032818296,
+            "node_id": "LA_kwDOPmFK9s8AAAACVgCoeA",
+            "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/labels/high-priority",
+            "name": "high-priority",
+            "color": "b60205",
+            "default": false,
+            "description": "High priority issue"
+          }
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignees": [
+          {
+            "login": "Gabriel-Andraade",
+            "id": 185098642,
+            "node_id": "U_kgDOCwhhkg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/185098642?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Gabriel-Andraade",
+            "html_url": "https://github.com/Gabriel-Andraade",
+            "followers_url": "https://api.github.com/users/Gabriel-Andraade/followers",
+            "following_url": "https://api.github.com/users/Gabriel-Andraade/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Gabriel-Andraade/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Gabriel-Andraade/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Gabriel-Andraade/subscriptions",
+            "organizations_url": "https://api.github.com/users/Gabriel-Andraade/orgs",
+            "repos_url": "https://api.github.com/users/Gabriel-Andraade/repos",
+            "events_url": "https://api.github.com/users/Gabriel-Andraade/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Gabriel-Andraade/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        ],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2026-02-20T18:29:06Z",
+        "updated_at": "2026-02-25T00:48:55Z",
+        "closed_at": "2026-02-25T00:48:55Z",
+        "assignee": {
+          "login": "Gabriel-Andraade",
+          "id": 185098642,
+          "node_id": "U_kgDOCwhhkg",
+          "avatar_url": "https://avatars.githubusercontent.com/u/185098642?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Gabriel-Andraade",
+          "html_url": "https://github.com/Gabriel-Andraade",
+          "followers_url": "https://api.github.com/users/Gabriel-Andraade/followers",
+          "following_url": "https://api.github.com/users/Gabriel-Andraade/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Gabriel-Andraade/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Gabriel-Andraade/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Gabriel-Andraade/subscriptions",
+          "organizations_url": "https://api.github.com/users/Gabriel-Andraade/orgs",
+          "repos_url": "https://api.github.com/users/Gabriel-Andraade/repos",
+          "events_url": "https://api.github.com/users/Gabriel-Andraade/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Gabriel-Andraade/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "active_lock_reason": null,
+        "sub_issues_summary": {
+          "total": 0,
+          "completed": 0,
+          "percent_completed": 0
+        },
+        "issue_dependencies_summary": {
+          "blocked_by": 0,
+          "total_blocked_by": 0,
+          "blocking": 0,
+          "total_blocking": 0
+        },
+        "body": "## Description\n\n`saveSystem.js` reads localStorage once into `_cachedRoot` with no TTL or `storage` event listener. If another browser tab modifies the save data, this tab continues using stale cached data.\n\n### Location\n`public/scripts/saveSystem.js` lines 86–112\n\n### Code\n```js\n_readRoot() {\n    // Retornar cache se disponível\n    if (this._cachedRoot !== null) {\n        return this._cachedRoot;\n    }\n\n    try {\n        const raw = localStorage.getItem(ROOT_KEY);\n        if (!raw) {\n            this._cachedRoot = { version: SAVE_VERSION, slots: Array(MAX_SLOTS).fill(null) };\n            return this._cachedRoot;\n        }\n        const parsed = JSON.parse(raw);\n        // ... validation ...\n        this._cachedRoot = parsed;\n        return this._cachedRoot;\n    } catch (error) {\n        logger.error('Error reading saves:', error);\n        this._cachedRoot = { version: SAVE_VERSION, slots: Array(MAX_SLOTS).fill(null) };\n        return this._cachedRoot;\n    }\n}\n```\n\n### Problem\n1. `_cachedRoot` is set on first read and never invalidated\n2. No `window.addEventListener('storage', ...)` to detect cross-tab changes\n3. If a player has two tabs open:\n   - Tab A saves progress → writes to localStorage\n   - Tab B still uses old `_cachedRoot` → reads stale data\n   - Tab B saves → overwrites Tab A's progress with stale data\n4. Result: **data loss**\n\n### Suggested Fix\nListen for the `storage` event to invalidate cache:\n```js\ninit() {\n    window.addEventListener('storage', (e) => {\n        if (e.key === ROOT_KEY) {\n            this._cachedRoot = null; // Invalidate cache\n            logger.info('[SaveSystem] Cache invalidated due to cross-tab change');\n        }\n    });\n}\n```\n\n### Impact\n- **Severity:** HIGH — potential save data loss/corruption in multi-tab scenarios",
+        "reactions": {
+          "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/114/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/114/timeline",
+        "performed_via_github_app": null,
+        "state_reason": "completed",
+        "pinned_comment": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-02-25T00:48:56Z"
+  },
+  {
+    "id": "6853459603",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 6379399,
+      "login": "cirospaciari",
+      "display_login": "cirospaciari",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cirospaciari",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6379399?"
+    },
+    "repo": {
+      "id": 1046563574,
+      "name": "Gabriel-Andraade/FarmXP_Browser",
+      "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser"
+    },
+    "payload": {
+      "action": "closed",
+      "issue": {
+        "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/113",
+        "repository_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser",
+        "labels_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/113/labels{/name}",
+        "comments_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/113/comments",
+        "events_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/113/events",
+        "html_url": "https://github.com/Gabriel-Andraade/FarmXP_Browser/issues/113",
+        "id": 3969830139,
+        "node_id": "I_kwDOPmFK9s7snsz7",
+        "number": 113,
+        "title": "Bug: Build system mouse timeout leaks across mode changes",
+        "user": {
+          "login": "cirospaciari",
+          "id": 6379399,
+          "node_id": "MDQ6VXNlcjYzNzkzOTk=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/6379399?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/cirospaciari",
+          "html_url": "https://github.com/cirospaciari",
+          "followers_url": "https://api.github.com/users/cirospaciari/followers",
+          "following_url": "https://api.github.com/users/cirospaciari/following{/other_user}",
+          "gists_url": "https://api.github.com/users/cirospaciari/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/cirospaciari/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/cirospaciari/subscriptions",
+          "organizations_url": "https://api.github.com/users/cirospaciari/orgs",
+          "repos_url": "https://api.github.com/users/cirospaciari/repos",
+          "events_url": "https://api.github.com/users/cirospaciari/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/cirospaciari/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "id": 9188635752,
+            "node_id": "LA_kwDOPmFK9s8AAAACI690aA",
+            "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/labels/bug",
+            "name": "bug",
+            "color": "d73a4a",
+            "default": true,
+            "description": "Something isn't working"
+          },
+          {
+            "id": 10032818296,
+            "node_id": "LA_kwDOPmFK9s8AAAACVgCoeA",
+            "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/labels/high-priority",
+            "name": "high-priority",
+            "color": "b60205",
+            "default": false,
+            "description": "High priority issue"
+          }
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignees": [
+          {
+            "login": "Gabriel-Andraade",
+            "id": 185098642,
+            "node_id": "U_kgDOCwhhkg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/185098642?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Gabriel-Andraade",
+            "html_url": "https://github.com/Gabriel-Andraade",
+            "followers_url": "https://api.github.com/users/Gabriel-Andraade/followers",
+            "following_url": "https://api.github.com/users/Gabriel-Andraade/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Gabriel-Andraade/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Gabriel-Andraade/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Gabriel-Andraade/subscriptions",
+            "organizations_url": "https://api.github.com/users/Gabriel-Andraade/orgs",
+            "repos_url": "https://api.github.com/users/Gabriel-Andraade/repos",
+            "events_url": "https://api.github.com/users/Gabriel-Andraade/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Gabriel-Andraade/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        ],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2026-02-20T18:28:57Z",
+        "updated_at": "2026-02-25T00:48:30Z",
+        "closed_at": "2026-02-25T00:48:30Z",
+        "assignee": {
+          "login": "Gabriel-Andraade",
+          "id": 185098642,
+          "node_id": "U_kgDOCwhhkg",
+          "avatar_url": "https://avatars.githubusercontent.com/u/185098642?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Gabriel-Andraade",
+          "html_url": "https://github.com/Gabriel-Andraade",
+          "followers_url": "https://api.github.com/users/Gabriel-Andraade/followers",
+          "following_url": "https://api.github.com/users/Gabriel-Andraade/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Gabriel-Andraade/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Gabriel-Andraade/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Gabriel-Andraade/subscriptions",
+          "organizations_url": "https://api.github.com/users/Gabriel-Andraade/orgs",
+          "repos_url": "https://api.github.com/users/Gabriel-Andraade/repos",
+          "events_url": "https://api.github.com/users/Gabriel-Andraade/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Gabriel-Andraade/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "active_lock_reason": null,
+        "sub_issues_summary": {
+          "total": 0,
+          "completed": 0,
+          "percent_completed": 0
+        },
+        "issue_dependencies_summary": {
+          "blocked_by": 0,
+          "total_blocked_by": 0,
+          "blocking": 0,
+          "total_blocking": 0
+        },
+        "body": "## Description\n\nIn `buildSystem.js`, the `updateMousePositionThrottled` method schedules a `setTimeout` that continues running after build mode is deactivated. Re-entering build mode can cause both the old and new timeouts to fire.\n\n### Location\n`public/scripts/buildSystem.js` lines 152–190\n\n### Code\n```js\nupdateMousePositionThrottled(wx, wy) {\n    const now = performance.now();\n    \n    if (now - this.lastMouseUpdate >= this.mouseUpdateInterval) {\n        this.mouseTile.x = Math.floor(wx / this.gridSize);\n        this.mouseTile.y = Math.floor(wy / this.gridSize);\n        this.lastMouseUpdate = now;\n    } else {\n        this.pendingMouseX = wx;\n        this.pendingMouseY = wy;\n        \n        if (!this.mouseUpdatePending) {\n            this.mouseUpdatePending = true;\n            setTimeout(() => {\n                this.processPendingMouseUpdate();\n            }, this.mouseUpdateInterval);\n        }\n    }\n},\n```\n\n### Problem\n1. `setTimeout` is called but the timeout ID is never stored\n2. When build mode is exited, the pending timeout is not cleared\n3. `processPendingMouseUpdate()` fires after build mode exit, updating state on a deactivated system\n4. Re-entering build mode while old timeout is pending → both old and new timeouts fire\n5. `mouseUpdatePending` flag is never reset if build mode exits mid-timeout\n\n### Suggested Fix\nStore the timeout ID and clear it on mode exit:\n```js\nif (!this.mouseUpdatePending) {\n    this.mouseUpdatePending = true;\n    this._mouseTimeoutId = setTimeout(() => {\n        this.processPendingMouseUpdate();\n    }, this.mouseUpdateInterval);\n}\n\n// In deactivate/destroy:\nif (this._mouseTimeoutId) {\n    clearTimeout(this._mouseTimeoutId);\n    this._mouseTimeoutId = null;\n    this.mouseUpdatePending = false;\n}\n```\n\n### Impact\n- **Severity:** HIGH — ghost mouse updates, potential state corruption when toggling build mode rapidly",
+        "reactions": {
+          "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/113/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/113/timeline",
+        "performed_via_github_app": null,
+        "state_reason": "completed",
+        "pinned_comment": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-02-25T00:48:30Z"
+  },
+  {
+    "id": "6853456984",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 6379399,
+      "login": "cirospaciari",
+      "display_login": "cirospaciari",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cirospaciari",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6379399?"
+    },
+    "repo": {
+      "id": 1046563574,
+      "name": "Gabriel-Andraade/FarmXP_Browser",
+      "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser"
+    },
+    "payload": {
+      "action": "closed",
+      "issue": {
+        "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/111",
+        "repository_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser",
+        "labels_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/111/labels{/name}",
+        "comments_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/111/comments",
+        "events_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/111/events",
+        "html_url": "https://github.com/Gabriel-Andraade/FarmXP_Browser/issues/111",
+        "id": 3969829089,
+        "node_id": "I_kwDOPmFK9s7snsjh",
+        "number": 111,
+        "title": "Bug: Animal UiPanel event listeners never removed",
+        "user": {
+          "login": "cirospaciari",
+          "id": 6379399,
+          "node_id": "MDQ6VXNlcjYzNzkzOTk=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/6379399?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/cirospaciari",
+          "html_url": "https://github.com/cirospaciari",
+          "followers_url": "https://api.github.com/users/cirospaciari/followers",
+          "following_url": "https://api.github.com/users/cirospaciari/following{/other_user}",
+          "gists_url": "https://api.github.com/users/cirospaciari/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/cirospaciari/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/cirospaciari/subscriptions",
+          "organizations_url": "https://api.github.com/users/cirospaciari/orgs",
+          "repos_url": "https://api.github.com/users/cirospaciari/repos",
+          "events_url": "https://api.github.com/users/cirospaciari/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/cirospaciari/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "id": 9188635752,
+            "node_id": "LA_kwDOPmFK9s8AAAACI690aA",
+            "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/labels/bug",
+            "name": "bug",
+            "color": "d73a4a",
+            "default": true,
+            "description": "Something isn't working"
+          },
+          {
+            "id": 10032818296,
+            "node_id": "LA_kwDOPmFK9s8AAAACVgCoeA",
+            "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/labels/high-priority",
+            "name": "high-priority",
+            "color": "b60205",
+            "default": false,
+            "description": "High priority issue"
+          }
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignees": [
+          {
+            "login": "Gabriel-Andraade",
+            "id": 185098642,
+            "node_id": "U_kgDOCwhhkg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/185098642?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Gabriel-Andraade",
+            "html_url": "https://github.com/Gabriel-Andraade",
+            "followers_url": "https://api.github.com/users/Gabriel-Andraade/followers",
+            "following_url": "https://api.github.com/users/Gabriel-Andraade/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Gabriel-Andraade/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Gabriel-Andraade/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Gabriel-Andraade/subscriptions",
+            "organizations_url": "https://api.github.com/users/Gabriel-Andraade/orgs",
+            "repos_url": "https://api.github.com/users/Gabriel-Andraade/repos",
+            "events_url": "https://api.github.com/users/Gabriel-Andraade/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Gabriel-Andraade/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        ],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2026-02-20T18:28:41Z",
+        "updated_at": "2026-02-25T00:48:20Z",
+        "closed_at": "2026-02-25T00:48:20Z",
+        "assignee": {
+          "login": "Gabriel-Andraade",
+          "id": 185098642,
+          "node_id": "U_kgDOCwhhkg",
+          "avatar_url": "https://avatars.githubusercontent.com/u/185098642?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Gabriel-Andraade",
+          "html_url": "https://github.com/Gabriel-Andraade",
+          "followers_url": "https://api.github.com/users/Gabriel-Andraade/followers",
+          "following_url": "https://api.github.com/users/Gabriel-Andraade/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Gabriel-Andraade/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Gabriel-Andraade/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Gabriel-Andraade/subscriptions",
+          "organizations_url": "https://api.github.com/users/Gabriel-Andraade/orgs",
+          "repos_url": "https://api.github.com/users/Gabriel-Andraade/repos",
+          "events_url": "https://api.github.com/users/Gabriel-Andraade/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Gabriel-Andraade/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "active_lock_reason": null,
+        "sub_issues_summary": {
+          "total": 0,
+          "completed": 0,
+          "percent_completed": 0
+        },
+        "issue_dependencies_summary": {
+          "blocked_by": 0,
+          "total_blocked_by": 0,
+          "blocking": 0,
+          "total_blocking": 0
+        },
+        "body": "## Description\n\n`animal/UiPanel.js` adds 3 event listeners in the constructor that are never removed. No `destroy()` method, no `removeEventListener`, no `AbortController`.\n\n### Location\n`public/scripts/animal/UiPanel.js` lines 80–86\n\n### Code\n```js\ndocument.addEventListener(\"pointerdown\", this._onDocPointerDown, true);\nwindow.addEventListener(\"resize\", this._onResize);\ndocument.addEventListener('languageChanged', () => {\n    this.rebuildInterface();\n});\n```\n\n### Problem\n- `pointerdown` listener on `document` — never removed\n- `resize` listener on `window` — never removed\n- `languageChanged` listener uses an **arrow function**, making it impossible to remove with `removeEventListener` (no reference to the original function)\n- When panels are created/destroyed during gameplay, listeners accumulate\n- Each leaked listener holds a reference to the UiPanel instance, preventing garbage collection\n\n### Suggested Fix\nUse an `AbortController` for all three listeners:\n```js\nconstructor() {\n    this._abortController = new AbortController();\n    const signal = this._abortController.signal;\n    \n    document.addEventListener(\"pointerdown\", this._onDocPointerDown, { capture: true, signal });\n    window.addEventListener(\"resize\", this._onResize, { signal });\n    document.addEventListener('languageChanged', () => this.rebuildInterface(), { signal });\n}\n\ndestroy() {\n    this._abortController.abort();\n    // ... additional cleanup\n}\n```\n\n### Impact\n- **Severity:** HIGH — memory leak when animal UI panels are created/destroyed",
+        "reactions": {
+          "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/111/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/111/timeline",
+        "performed_via_github_app": null,
+        "state_reason": "completed",
+        "pinned_comment": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-02-25T00:48:21Z"
+  },
+  {
+    "id": "6853452486",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 6379399,
+      "login": "cirospaciari",
+      "display_login": "cirospaciari",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cirospaciari",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6379399?"
+    },
+    "repo": {
+      "id": 1046563574,
+      "name": "Gabriel-Andraade/FarmXP_Browser",
+      "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser"
+    },
+    "payload": {
+      "action": "closed",
+      "issue": {
+        "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/110",
+        "repository_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser",
+        "labels_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/110/labels{/name}",
+        "comments_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/110/comments",
+        "events_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/110/events",
+        "html_url": "https://github.com/Gabriel-Andraade/FarmXP_Browser/issues/110",
+        "id": 3969828605,
+        "node_id": "I_kwDOPmFK9s7snsb9",
+        "number": 110,
+        "title": "Bug: audioManager has no destroy/cleanup method — never cleaned up",
+        "user": {
+          "login": "cirospaciari",
+          "id": 6379399,
+          "node_id": "MDQ6VXNlcjYzNzkzOTk=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/6379399?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/cirospaciari",
+          "html_url": "https://github.com/cirospaciari",
+          "followers_url": "https://api.github.com/users/cirospaciari/followers",
+          "following_url": "https://api.github.com/users/cirospaciari/following{/other_user}",
+          "gists_url": "https://api.github.com/users/cirospaciari/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/cirospaciari/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/cirospaciari/subscriptions",
+          "organizations_url": "https://api.github.com/users/cirospaciari/orgs",
+          "repos_url": "https://api.github.com/users/cirospaciari/repos",
+          "events_url": "https://api.github.com/users/cirospaciari/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/cirospaciari/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "id": 9188635752,
+            "node_id": "LA_kwDOPmFK9s8AAAACI690aA",
+            "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/labels/bug",
+            "name": "bug",
+            "color": "d73a4a",
+            "default": true,
+            "description": "Something isn't working"
+          },
+          {
+            "id": 10032818296,
+            "node_id": "LA_kwDOPmFK9s8AAAACVgCoeA",
+            "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/labels/high-priority",
+            "name": "high-priority",
+            "color": "b60205",
+            "default": false,
+            "description": "High priority issue"
+          },
+          {
+            "id": 10032818708,
+            "node_id": "LA_kwDOPmFK9s8AAAACVgCqFA",
+            "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/labels/cleanup",
+            "name": "cleanup",
+            "color": "fef2c0",
+            "default": false,
+            "description": "Code cleanup and maintenance"
+          }
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignees": [
+          {
+            "login": "Gabriel-Andraade",
+            "id": 185098642,
+            "node_id": "U_kgDOCwhhkg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/185098642?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Gabriel-Andraade",
+            "html_url": "https://github.com/Gabriel-Andraade",
+            "followers_url": "https://api.github.com/users/Gabriel-Andraade/followers",
+            "following_url": "https://api.github.com/users/Gabriel-Andraade/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Gabriel-Andraade/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Gabriel-Andraade/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Gabriel-Andraade/subscriptions",
+            "organizations_url": "https://api.github.com/users/Gabriel-Andraade/orgs",
+            "repos_url": "https://api.github.com/users/Gabriel-Andraade/repos",
+            "events_url": "https://api.github.com/users/Gabriel-Andraade/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Gabriel-Andraade/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        ],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2026-02-20T18:28:34Z",
+        "updated_at": "2026-02-25T00:48:04Z",
+        "closed_at": "2026-02-25T00:48:04Z",
+        "assignee": {
+          "login": "Gabriel-Andraade",
+          "id": 185098642,
+          "node_id": "U_kgDOCwhhkg",
+          "avatar_url": "https://avatars.githubusercontent.com/u/185098642?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Gabriel-Andraade",
+          "html_url": "https://github.com/Gabriel-Andraade",
+          "followers_url": "https://api.github.com/users/Gabriel-Andraade/followers",
+          "following_url": "https://api.github.com/users/Gabriel-Andraade/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Gabriel-Andraade/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Gabriel-Andraade/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Gabriel-Andraade/subscriptions",
+          "organizations_url": "https://api.github.com/users/Gabriel-Andraade/orgs",
+          "repos_url": "https://api.github.com/users/Gabriel-Andraade/repos",
+          "events_url": "https://api.github.com/users/Gabriel-Andraade/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Gabriel-Andraade/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "active_lock_reason": null,
+        "sub_issues_summary": {
+          "total": 0,
+          "completed": 0,
+          "percent_completed": 0
+        },
+        "issue_dependencies_summary": {
+          "blocked_by": 0,
+          "total_blocked_by": 0,
+          "blocking": 0,
+          "total_blocking": 0
+        },
+        "body": "## Description\n\nThe `audioManager` module has no `destroy()` or `cleanup()` method and is not listed in `gameCleanup.js`. This means audio resources persist after game exit.\n\n### Location\n`public/scripts/audioManager.js` (entire file)\n\n### Problem\n- No `destroy()` or `cleanup()` method exists\n- Not registered in `gameCleanup.js` cleanup sequence\n- `AudioContext` is never closed on game exit\n- Playing audio and any running intervals persist after cleanup\n- Internal cleanup exists for individual tracks (`_endMonitorCleanup`, `_stopCurrentTrack`) but no system-level teardown\n\n### Current state of `gameCleanup.js`\nThe following systems are cleaned up: PlayerSystem, InventorySystem, ItemSystem, InventoryUI, WorldUI, MerchantSystem, Controls, HouseSystem, ChestSystem, WellSystem, WeatherSystem.\n\n**Missing:** AudioManager, CraftingSystem, AnimalsUI/UiPanel, BuildSystem\n\n### Suggested Fix\n1. Add a `destroy()` method to audioManager:\n```js\ndestroy() {\n    this._stopCurrentTrack();\n    this._stopFog();\n    if (this.audioContext && this.audioContext.state !== 'closed') {\n        this.audioContext.close();\n    }\n    // Clear any intervals/timeouts\n    // Remove event listeners\n}\n```\n2. Register in `gameCleanup.js`:\n```js\nconst audioManager = getSystem('audio');\nif (audioManager && typeof audioManager.destroy === 'function') {\n    audioManager.destroy();\n}\n```\n\n### Impact\n- **Severity:** HIGH — memory leak, continued audio playback after game cleanup\n- Also see follow-up issue for #11 (event listener leaks)",
+        "reactions": {
+          "url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/110/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/Gabriel-Andraade/FarmXP_Browser/issues/110/timeline",
+        "performed_via_github_app": null,
+        "state_reason": "completed",
+        "pinned_comment": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-02-25T00:48:05Z"
+  },
+  {
+    "id": "6849515953",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 6379399,
+      "login": "cirospaciari",
+      "display_login": "cirospaciari",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cirospaciari",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6379399?"
+    },
+    "repo": {
+      "id": 357728969,
+      "name": "oven-sh/bun",
+      "url": "https://api.github.com/repos/oven-sh/bun"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 27407,
+      "pull_request": {
+        "url": "https://api.github.com/repos/oven-sh/bun/pulls/27407",
+        "id": 3322300884,
+        "number": 27407,
+        "head": {
+          "ref": "claude/http-context-deinit-fix",
+          "sha": "011fc4e279d57e977b4532067bdd79608b8142fd",
+          "repo": {
+            "id": 357728969,
+            "url": "https://api.github.com/repos/oven-sh/bun",
+            "name": "bun"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "38e4340d28eb7a46ae745f813a8700b4ba3791b9",
+          "repo": {
+            "id": 357728969,
+            "url": "https://api.github.com/repos/oven-sh/bun",
+            "name": "bun"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-02-24T19:40:26Z",
+    "org": {
+      "id": 108928776,
+      "login": "oven-sh",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/oven-sh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/108928776?"
+    }
+  },
+  {
+    "id": "6849508392",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 6379399,
+      "login": "cirospaciari",
+      "display_login": "cirospaciari",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cirospaciari",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6379399?"
+    },
+    "repo": {
+      "id": 357728969,
+      "name": "oven-sh/bun",
+      "url": "https://api.github.com/repos/oven-sh/bun"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 27409,
+      "pull_request": {
+        "url": "https://api.github.com/repos/oven-sh/bun/pulls/27409",
+        "id": 3322301585,
+        "number": 27409,
+        "head": {
+          "ref": "claude/ssl-config-refcount",
+          "sha": "9ef4d31c2024121b133182608875c5610a12eb3f",
+          "repo": {
+            "id": 357728969,
+            "url": "https://api.github.com/repos/oven-sh/bun",
+            "name": "bun"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "38e4340d28eb7a46ae745f813a8700b4ba3791b9",
+          "repo": {
+            "id": 357728969,
+            "url": "https://api.github.com/repos/oven-sh/bun",
+            "name": "bun"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-02-24T19:38:13Z",
+    "org": {
+      "id": 108928776,
+      "login": "oven-sh",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/oven-sh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/108928776?"
+    }
+  },
+  {
+    "id": "6849275134",
+    "type": "PullRequestReviewCommentEvent",
+    "actor": {
+      "id": 6379399,
+      "login": "cirospaciari",
+      "display_login": "cirospaciari",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cirospaciari",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6379399?"
+    },
+    "repo": {
+      "id": 357728969,
+      "name": "oven-sh/bun",
+      "url": "https://api.github.com/repos/oven-sh/bun"
+    },
+    "payload": {
+      "action": "created",
+      "comment": {
+        "url": "https://api.github.com/repos/oven-sh/bun/pulls/comments/2849616952",
+        "pull_request_review_id": 3850607311,
+        "id": 2849616952,
+        "node_id": "PRRC_kwDOFVKCyc6p2bQ4",
+        "diff_hunk": "@@ -0,0 +1,167 @@\n+import { describe, expect, setDefaultTimeout, test } from \"bun:test\";\n+import { bunEnv, bunExe, isASAN, tls as validTls } from \"harness\";\n+import { join } from \"node:path\";\n+\n+setDefaultTimeout(30_000);\n+\n+describe(\"TLS keepalive for custom SSL configs\", () => {\n+  test(\"keepalive reuses connections with same TLS config\", async () => {\n+    using server = Bun.serve({\n+      port: 0,\n+      tls: validTls,\n+      hostname: \"127.0.0.1\",\n+      fetch(req, server) {\n+        const ip = server.requestIP(req);\n+        return new Response(String(ip?.port ?? 0));\n+      },\n+    });\n+\n+    const url = `https://127.0.0.1:${server.port}`;\n+    const tlsOpts = { ca: validTls.cert, rejectUnauthorized: false };\n+\n+    // Make sequential requests with keepalive enabled.\n+    // With our fix: connections reuse → same client port.\n+    // Without fix: disable_keepalive=true → new connection each time → different ports.\n+    const ports: number[] = [];\n+    for (let i = 0; i < 6; i++) {\n+      const res = await fetch(url, { tls: tlsOpts, keepalive: true });\n+      ports.push(parseInt(await res.text(), 10));\n+    }\n+\n+    const uniquePorts = new Set(ports);\n+    // Keepalive working: at most 2 unique ports (allowing one reconnect)\n+    expect(uniquePorts.size).toBeLessThanOrEqual(2);\n+  });\n+\n+  test(\"different TLS configs use separate connections\", async () => {\n+    using server = Bun.serve({\n+      port: 0,\n+      tls: validTls,\n+      hostname: \"127.0.0.1\",\n+      fetch(req, server) {\n+        const ip = server.requestIP(req);\n+        return new Response(String(ip?.port ?? 0));\n+      },\n+    });\n+\n+    const url = `https://127.0.0.1:${server.port}`;\n+\n+    // Two configs that differ (serverName makes them different SSLConfigs)\n+    const tlsA = { ca: validTls.cert, rejectUnauthorized: false };\n+    const tlsB = { ca: validTls.cert, rejectUnauthorized: false, serverName: \"127.0.0.1\" };\n+\n+    const resA = await fetch(url, { tls: tlsA, keepalive: true });\n+    const portA = parseInt(await resA.text(), 10);\n+\n+    const resB = await fetch(url, { tls: tlsB, keepalive: true });\n+    const portB = parseInt(await resB.text(), 10);\n+\n+    // Different SSL configs must not share keepalive connections\n+    expect(portA).not.toBe(portB);\n+  });\n+\n+  test(\"stress test - many sequential requests reuse connections\", async () => {\n+    using server = Bun.serve({\n+      port: 0,\n+      tls: validTls,\n+      hostname: \"127.0.0.1\",\n+      fetch(req, server) {\n+        const ip = server.requestIP(req);\n+        return new Response(String(ip?.port ?? 0));\n+      },\n+    });\n+\n+    const url = `https://127.0.0.1:${server.port}`;\n+    const tlsOpts = { ca: validTls.cert, rejectUnauthorized: false };\n+\n+    const ports: number[] = [];\n+    for (let i = 0; i < 50; i++) {\n+      const res = await fetch(url, { tls: tlsOpts, keepalive: true });\n+      ports.push(parseInt(await res.text(), 10));\n+    }\n+\n+    const uniquePorts = new Set(ports);\n+    // 50 requests through keepalive should use very few connections\n+    expect(uniquePorts.size).toBeLessThanOrEqual(3);\n+  });\n+\n+  test(\"keepalive disabled creates new connections each time\", async () => {\n+    using server = Bun.serve({\n+      port: 0,\n+      tls: validTls,\n+      hostname: \"127.0.0.1\",\n+      fetch(req, server) {\n+        const ip = server.requestIP(req);\n+        return new Response(String(ip?.port ?? 0));\n+      },\n+    });\n+\n+    const url = `https://127.0.0.1:${server.port}`;\n+    const tlsOpts = { ca: validTls.cert, rejectUnauthorized: false };\n+\n+    // With keepalive explicitly disabled, each request should open a new connection\n+    const ports: number[] = [];\n+    for (let i = 0; i < 5; i++) {\n+      const res = await fetch(url, { tls: tlsOpts, keepalive: false });\n+      ports.push(parseInt(await res.text(), 10));\n+    }\n+\n+    const uniquePorts = new Set(ports);\n+    // Every request should use a different connection → different port\n+    expect(uniquePorts.size).toBeGreaterThan(1);\n+  });\n+});\n+\n+describe.skipIf(isASAN)(\"TLS custom config memory leak detection\", () => {\n+  test(\"repeated fetches with same custom TLS config do not leak memory\", async () => {\n+    await using proc = Bun.spawn({\n+      cmd: [bunExe(), \"--smol\", join(import.meta.dir, \"tls-keepalive-leak-fixture.js\")],\n+      env: {\n+        ...bunEnv,\n+        TLS_CERT: validTls.cert,\n+        TLS_KEY: validTls.key,\n+        NUM_REQUESTS: \"100000\",\n+        MODE: \"same\",\n+      },\n+      stdout: \"pipe\",\n+      stderr: \"pipe\",\n+    });\n+\n+    const [stdout, stderr, exitCode] = await Promise.all([proc.stdout.text(), proc.stderr.text(), proc.exited]);\n+\n+    const result = JSON.parse(stdout.trim());\n+    console.log(`Same config: ${result.numRequests} requests, growth: ${result.growthMB} MB`);\n+\n+    if (exitCode !== 0) {",
+        "path": "test/js/bun/http/tls-keepalive.test.ts",
+        "commit_id": "36d211db7396ea186a97f4b61a336566276d7128",
+        "original_commit_id": "dea81365f40e6af2c1cdaa7bf5f8db1b12d24753",
+        "user": {
+          "login": "cirospaciari",
+          "id": 6379399,
+          "node_id": "MDQ6VXNlcjYzNzkzOTk=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/6379399?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/cirospaciari",
+          "html_url": "https://github.com/cirospaciari",
+          "followers_url": "https://api.github.com/users/cirospaciari/followers",
+          "following_url": "https://api.github.com/users/cirospaciari/following{/other_user}",
+          "gists_url": "https://api.github.com/users/cirospaciari/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/cirospaciari/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/cirospaciari/subscriptions",
+          "organizations_url": "https://api.github.com/users/cirospaciari/orgs",
+          "repos_url": "https://api.github.com/users/cirospaciari/repos",
+          "events_url": "https://api.github.com/users/cirospaciari/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/cirospaciari/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": "This was already fixed in dea8136 — the comment is on a stale commit. Both tests now assert `result.growthMB` before `exitCode`.",
+        "created_at": "2026-02-24T21:22:45Z",
+        "updated_at": "2026-02-24T21:22:45Z",
+        "html_url": "https://github.com/oven-sh/bun/pull/27385#discussion_r2849616952",
+        "pull_request_url": "https://api.github.com/repos/oven-sh/bun/pulls/27385",
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/oven-sh/bun/pulls/comments/2849616952"
+          },
+          "html": {
+            "href": "https://github.com/oven-sh/bun/pull/27385#discussion_r2849616952"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/oven-sh/bun/pulls/27385"
+          }
+        },
+        "reactions": {
+          "url": "https://api.github.com/repos/oven-sh/bun/pulls/comments/2849616952/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "in_reply_to_id": 2849574788,
+        "original_position": 135,
+        "position": 135,
+        "subject_type": "line"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/oven-sh/bun/pulls/27385",
+        "id": 3318113366,
+        "number": 27385,
+        "head": {
+          "ref": "ciro/tls-config",
+          "sha": "36d211db7396ea186a97f4b61a336566276d7128",
+          "repo": {
+            "id": 357728969,
+            "url": "https://api.github.com/repos/oven-sh/bun",
+            "name": "bun"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "38e4340d28eb7a46ae745f813a8700b4ba3791b9",
+          "repo": {
+            "id": 357728969,
+            "url": "https://api.github.com/repos/oven-sh/bun",
+            "name": "bun"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-02-24T21:22:45Z",
+    "org": {
+      "id": 108928776,
+      "login": "oven-sh",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/oven-sh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/108928776?"
+    }
+  },
+  {
+    "id": "6849275133",
+    "type": "PullRequestReviewEvent",
+    "actor": {
+      "id": 6379399,
+      "login": "cirospaciari",
+      "display_login": "cirospaciari",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cirospaciari",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6379399?"
+    },
+    "repo": {
+      "id": 357728969,
+      "name": "oven-sh/bun",
+      "url": "https://api.github.com/repos/oven-sh/bun"
+    },
+    "payload": {
+      "review": {
+        "id": 3850607311,
+        "node_id": "PRR_kwDOFVKCyc7lg5rP",
+        "user": {
+          "login": "cirospaciari",
+          "id": 6379399,
+          "node_id": "MDQ6VXNlcjYzNzkzOTk=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/6379399?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/cirospaciari",
+          "html_url": "https://github.com/cirospaciari",
+          "followers_url": "https://api.github.com/users/cirospaciari/followers",
+          "following_url": "https://api.github.com/users/cirospaciari/following{/other_user}",
+          "gists_url": "https://api.github.com/users/cirospaciari/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/cirospaciari/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/cirospaciari/subscriptions",
+          "organizations_url": "https://api.github.com/users/cirospaciari/orgs",
+          "repos_url": "https://api.github.com/users/cirospaciari/repos",
+          "events_url": "https://api.github.com/users/cirospaciari/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/cirospaciari/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": null,
+        "commit_id": "dc926f8c6249585f4e5c94262afdaab87305a28c",
+        "submitted_at": "2026-02-24T21:22:45Z",
+        "state": "commented",
+        "html_url": "https://github.com/oven-sh/bun/pull/27385#pullrequestreview-3850607311",
+        "pull_request_url": "https://api.github.com/repos/oven-sh/bun/pulls/27385",
+        "_links": {
+          "html": {
+            "href": "https://github.com/oven-sh/bun/pull/27385#pullrequestreview-3850607311"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/oven-sh/bun/pulls/27385"
+          }
+        },
+        "updated_at": "2026-02-24T21:22:45Z"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/oven-sh/bun/pulls/27385",
+        "id": 3318113366,
+        "number": 27385,
+        "head": {
+          "ref": "ciro/tls-config",
+          "sha": "36d211db7396ea186a97f4b61a336566276d7128",
+          "repo": {
+            "id": 357728969,
+            "url": "https://api.github.com/repos/oven-sh/bun",
+            "name": "bun"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "38e4340d28eb7a46ae745f813a8700b4ba3791b9",
+          "repo": {
+            "id": 357728969,
+            "url": "https://api.github.com/repos/oven-sh/bun",
+            "name": "bun"
+          }
+        }
+      },
+      "action": "created"
+    },
+    "public": true,
+    "created_at": "2026-02-24T21:22:46Z",
+    "org": {
+      "id": 108928776,
+      "login": "oven-sh",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/oven-sh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/108928776?"
+    }
+  },
+  {
+    "id": "6849274529",
+    "type": "PullRequestReviewCommentEvent",
+    "actor": {
+      "id": 6379399,
+      "login": "cirospaciari",
+      "display_login": "cirospaciari",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cirospaciari",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6379399?"
+    },
+    "repo": {
+      "id": 357728969,
+      "name": "oven-sh/bun",
+      "url": "https://api.github.com/repos/oven-sh/bun"
+    },
+    "payload": {
+      "action": "created",
+      "comment": {
+        "url": "https://api.github.com/repos/oven-sh/bun/pulls/comments/2849616833",
+        "pull_request_review_id": 3850607193,
+        "id": 2849616833,
+        "node_id": "PRRC_kwDOFVKCyc6p2bPB",
+        "diff_hunk": "@@ -79,7 +84,30 @@ pub fn NewHTTPContext(comptime ssl: bool) type {\n         }\n \n         pub fn deinit(this: *@This()) void {\n-            this.us_socket_context.deinit(ssl);\n+            // Replace callbacks with no-ops first to avoid UAF when closing sockets.\n+            this.us_socket_context.cleanCallbacks(ssl);\n+\n+            // Drain pooled keepalive sockets: deref their ssl_config and force-close.\n+            // Must force-close (code != 0) because SSL clean shutdown (code=0) requires a\n+            // shutdown handshake with the peer, which won't complete during eviction.\n+            // Without force-close, the socket stays linked and the context refcount never\n+            // reaches 0, leaking the SSL_CTX.\n+            if (comptime ssl) {\n+                var iter = this.pending_sockets.used.iterator(.{ .kind = .set });\n+                while (iter.next()) |idx| {\n+                    const pooled = this.pending_sockets.at(@intCast(idx));\n+                    if (pooled.ssl_config) |config| {\n+                        config.deref();\n+                        pooled.ssl_config = null;\n+                    }\n+                    pooled.http_socket.close(.failure);\n+                }\n+            }\n+\n+            // Close any remaining sockets in the context (should be none after draining pool).\n+            this.us_socket_context.close(ssl);\n+            // Free the uSockets context synchronously.\n+            this.us_socket_context.free(ssl);",
+        "path": "src/http/HTTPContext.zig",
+        "commit_id": "dea81365f40e6af2c1cdaa7bf5f8db1b12d24753",
+        "original_commit_id": "dea81365f40e6af2c1cdaa7bf5f8db1b12d24753",
+        "user": {
+          "login": "cirospaciari",
+          "id": 6379399,
+          "node_id": "MDQ6VXNlcjYzNzkzOTk=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/6379399?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/cirospaciari",
+          "html_url": "https://github.com/cirospaciari",
+          "followers_url": "https://api.github.com/users/cirospaciari/followers",
+          "following_url": "https://api.github.com/users/cirospaciari/following{/other_user}",
+          "gists_url": "https://api.github.com/users/cirospaciari/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/cirospaciari/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/cirospaciari/subscriptions",
+          "organizations_url": "https://api.github.com/users/cirospaciari/orgs",
+          "repos_url": "https://api.github.com/users/cirospaciari/repos",
+          "events_url": "https://api.github.com/users/cirospaciari/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/cirospaciari/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": "Good catch — fixed in dc926f8. Now using `SocketContext.deinit()` which defers the `free` via `nextTick`, matching the established pattern in the codebase. The Zig-level `destroy(this)` still runs synchronously since callbacks are already no-ops, but the C-level context free is properly deferred.",
+        "created_at": "2026-02-24T21:22:44Z",
+        "updated_at": "2026-02-24T21:22:44Z",
+        "html_url": "https://github.com/oven-sh/bun/pull/27385#discussion_r2849616833",
+        "pull_request_url": "https://api.github.com/repos/oven-sh/bun/pulls/27385",
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/oven-sh/bun/pulls/comments/2849616833"
+          },
+          "html": {
+            "href": "https://github.com/oven-sh/bun/pull/27385#discussion_r2849616833"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/oven-sh/bun/pulls/27385"
+          }
+        },
+        "reactions": {
+          "url": "https://api.github.com/repos/oven-sh/bun/pulls/comments/2849616833/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "in_reply_to_id": 2849572982,
+        "original_position": 40,
+        "position": 1,
+        "subject_type": "line"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/oven-sh/bun/pulls/27385",
+        "id": 3318113366,
+        "number": 27385,
+        "head": {
+          "ref": "ciro/tls-config",
+          "sha": "36d211db7396ea186a97f4b61a336566276d7128",
+          "repo": {
+            "id": 357728969,
+            "url": "https://api.github.com/repos/oven-sh/bun",
+            "name": "bun"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "38e4340d28eb7a46ae745f813a8700b4ba3791b9",
+          "repo": {
+            "id": 357728969,
+            "url": "https://api.github.com/repos/oven-sh/bun",
+            "name": "bun"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-02-24T21:22:44Z",
+    "org": {
+      "id": 108928776,
+      "login": "oven-sh",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/oven-sh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/108928776?"
+    }
+  },
+  {
+    "id": "6849274519",
+    "type": "PullRequestReviewEvent",
+    "actor": {
+      "id": 6379399,
+      "login": "cirospaciari",
+      "display_login": "cirospaciari",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cirospaciari",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6379399?"
+    },
+    "repo": {
+      "id": 357728969,
+      "name": "oven-sh/bun",
+      "url": "https://api.github.com/repos/oven-sh/bun"
+    },
+    "payload": {
+      "review": {
+        "id": 3850607193,
+        "node_id": "PRR_kwDOFVKCyc7lg5pZ",
+        "user": {
+          "login": "cirospaciari",
+          "id": 6379399,
+          "node_id": "MDQ6VXNlcjYzNzkzOTk=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/6379399?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/cirospaciari",
+          "html_url": "https://github.com/cirospaciari",
+          "followers_url": "https://api.github.com/users/cirospaciari/followers",
+          "following_url": "https://api.github.com/users/cirospaciari/following{/other_user}",
+          "gists_url": "https://api.github.com/users/cirospaciari/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/cirospaciari/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/cirospaciari/subscriptions",
+          "organizations_url": "https://api.github.com/users/cirospaciari/orgs",
+          "repos_url": "https://api.github.com/users/cirospaciari/repos",
+          "events_url": "https://api.github.com/users/cirospaciari/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/cirospaciari/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": null,
+        "commit_id": "dc926f8c6249585f4e5c94262afdaab87305a28c",
+        "submitted_at": "2026-02-24T21:22:44Z",
+        "state": "commented",
+        "html_url": "https://github.com/oven-sh/bun/pull/27385#pullrequestreview-3850607193",
+        "pull_request_url": "https://api.github.com/repos/oven-sh/bun/pulls/27385",
+        "_links": {
+          "html": {
+            "href": "https://github.com/oven-sh/bun/pull/27385#pullrequestreview-3850607193"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/oven-sh/bun/pulls/27385"
+          }
+        },
+        "updated_at": "2026-02-24T21:22:44Z"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/oven-sh/bun/pulls/27385",
+        "id": 3318113366,
+        "number": 27385,
+        "head": {
+          "ref": "ciro/tls-config",
+          "sha": "36d211db7396ea186a97f4b61a336566276d7128",
+          "repo": {
+            "id": 357728969,
+            "url": "https://api.github.com/repos/oven-sh/bun",
+            "name": "bun"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "38e4340d28eb7a46ae745f813a8700b4ba3791b9",
+          "repo": {
+            "id": 357728969,
+            "url": "https://api.github.com/repos/oven-sh/bun",
+            "name": "bun"
+          }
+        }
+      },
+      "action": "created"
+    },
+    "public": true,
+    "created_at": "2026-02-24T21:22:44Z",
+    "org": {
+      "id": 108928776,
+      "login": "oven-sh",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/oven-sh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/108928776?"
+    }
+  },
+  {
+    "id": "6848719222",
+    "type": "PullRequestReviewCommentEvent",
+    "actor": {
+      "id": 6379399,
+      "login": "cirospaciari",
+      "display_login": "cirospaciari",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cirospaciari",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6379399?"
+    },
+    "repo": {
+      "id": 357728969,
+      "name": "oven-sh/bun",
+      "url": "https://api.github.com/repos/oven-sh/bun"
+    },
+    "payload": {
+      "action": "created",
+      "comment": {
+        "url": "https://api.github.com/repos/oven-sh/bun/pulls/comments/2849521782",
+        "pull_request_review_id": 3850499511,
+        "id": 2849521782,
+        "node_id": "PRRC_kwDOFVKCyc6p2EB2",
+        "diff_hunk": "@@ -0,0 +1,167 @@\n+import { describe, expect, setDefaultTimeout, test } from \"bun:test\";\n+import { bunEnv, bunExe, isASAN, tls as validTls } from \"harness\";\n+import { join } from \"node:path\";\n+\n+setDefaultTimeout(30_000);\n+\n+describe(\"TLS keepalive for custom SSL configs\", () => {\n+  test(\"keepalive reuses connections with same TLS config\", async () => {\n+    using server = Bun.serve({\n+      port: 0,\n+      tls: validTls,\n+      hostname: \"127.0.0.1\",\n+      fetch(req, server) {\n+        const ip = server.requestIP(req);\n+        return new Response(String(ip?.port ?? 0));\n+      },\n+    });\n+\n+    const url = `https://127.0.0.1:${server.port}`;\n+    const tlsOpts = { ca: validTls.cert, rejectUnauthorized: false };\n+\n+    // Make sequential requests with keepalive enabled.\n+    // With our fix: connections reuse → same client port.\n+    // Without fix: disable_keepalive=true → new connection each time → different ports.\n+    const ports: number[] = [];\n+    for (let i = 0; i < 6; i++) {\n+      const res = await fetch(url, { tls: tlsOpts, keepalive: true });\n+      ports.push(parseInt(await res.text(), 10));\n+    }\n+\n+    const uniquePorts = new Set(ports);\n+    // Keepalive working: at most 2 unique ports (allowing one reconnect)\n+    expect(uniquePorts.size).toBeLessThanOrEqual(2);\n+  });\n+\n+  test(\"different TLS configs use separate connections\", async () => {\n+    using server = Bun.serve({\n+      port: 0,\n+      tls: validTls,\n+      hostname: \"127.0.0.1\",\n+      fetch(req, server) {\n+        const ip = server.requestIP(req);\n+        return new Response(String(ip?.port ?? 0));\n+      },\n+    });\n+\n+    const url = `https://127.0.0.1:${server.port}`;\n+\n+    // Two configs that differ (serverName makes them different SSLConfigs)\n+    const tlsA = { ca: validTls.cert, rejectUnauthorized: false };\n+    const tlsB = { ca: validTls.cert, rejectUnauthorized: false, serverName: \"127.0.0.1\" };\n+\n+    const resA = await fetch(url, { tls: tlsA, keepalive: true });\n+    const portA = parseInt(await resA.text(), 10);\n+\n+    const resB = await fetch(url, { tls: tlsB, keepalive: true });\n+    const portB = parseInt(await resB.text(), 10);\n+\n+    // Different SSL configs must not share keepalive connections\n+    expect(portA).not.toBe(portB);\n+  });\n+\n+  test(\"stress test - many sequential requests reuse connections\", async () => {\n+    using server = Bun.serve({\n+      port: 0,\n+      tls: validTls,\n+      hostname: \"127.0.0.1\",\n+      fetch(req, server) {\n+        const ip = server.requestIP(req);\n+        return new Response(String(ip?.port ?? 0));\n+      },\n+    });\n+\n+    const url = `https://127.0.0.1:${server.port}`;\n+    const tlsOpts = { ca: validTls.cert, rejectUnauthorized: false };\n+\n+    const ports: number[] = [];\n+    for (let i = 0; i < 50; i++) {\n+      const res = await fetch(url, { tls: tlsOpts, keepalive: true });\n+      ports.push(parseInt(await res.text(), 10));\n+    }\n+\n+    const uniquePorts = new Set(ports);\n+    // 50 requests through keepalive should use very few connections\n+    expect(uniquePorts.size).toBeLessThanOrEqual(3);\n+  });\n+\n+  test(\"keepalive disabled creates new connections each time\", async () => {\n+    using server = Bun.serve({\n+      port: 0,\n+      tls: validTls,\n+      hostname: \"127.0.0.1\",\n+      fetch(req, server) {\n+        const ip = server.requestIP(req);\n+        return new Response(String(ip?.port ?? 0));\n+      },\n+    });\n+\n+    const url = `https://127.0.0.1:${server.port}`;\n+    const tlsOpts = { ca: validTls.cert, rejectUnauthorized: false };\n+\n+    // With keepalive explicitly disabled, each request should open a new connection\n+    const ports: number[] = [];\n+    for (let i = 0; i < 5; i++) {\n+      const res = await fetch(url, { tls: tlsOpts, keepalive: false });\n+      ports.push(parseInt(await res.text(), 10));\n+    }\n+\n+    const uniquePorts = new Set(ports);\n+    // Every request should use a different connection → different port\n+    expect(uniquePorts.size).toBeGreaterThan(1);\n+  });\n+});\n+\n+describe.skipIf(isASAN)(\"TLS custom config memory leak detection\", () => {\n+  test(\"repeated fetches with same custom TLS config do not leak memory\", async () => {\n+    await using proc = Bun.spawn({\n+      cmd: [bunExe(), \"--smol\", join(import.meta.dir, \"tls-keepalive-leak-fixture.js\")],\n+      env: {\n+        ...bunEnv,\n+        TLS_CERT: validTls.cert,\n+        TLS_KEY: validTls.key,\n+        NUM_REQUESTS: \"100000\",\n+        MODE: \"same\",\n+      },\n+      stdout: \"pipe\",\n+      stderr: \"pipe\",\n+    });\n+\n+    const [stdout, stderr, exitCode] = await Promise.all([proc.stdout.text(), proc.stderr.text(), proc.exited]);\n+\n+    const result = JSON.parse(stdout.trim());\n+    console.log(`Same config: ${result.numRequests} requests, growth: ${result.growthMB} MB`);\n+\n+    if (exitCode !== 0) {\n+      console.error(stderr);\n+    }\n+    expect(result.growthMB).toBeLessThan(50);\n+    expect(exitCode).toBe(0);\n+  });",
+        "path": "test/js/bun/http/tls-keepalive.test.ts",
+        "commit_id": "36d211db7396ea186a97f4b61a336566276d7128",
+        "original_commit_id": "dea81365f40e6af2c1cdaa7bf5f8db1b12d24753",
+        "user": {
+          "login": "cirospaciari",
+          "id": 6379399,
+          "node_id": "MDQ6VXNlcjYzNzkzOTk=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/6379399?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/cirospaciari",
+          "html_url": "https://github.com/cirospaciari",
+          "followers_url": "https://api.github.com/users/cirospaciari/followers",
+          "following_url": "https://api.github.com/users/cirospaciari/following{/other_user}",
+          "gists_url": "https://api.github.com/users/cirospaciari/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/cirospaciari/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/cirospaciari/subscriptions",
+          "organizations_url": "https://api.github.com/users/cirospaciari/orgs",
+          "repos_url": "https://api.github.com/users/cirospaciari/repos",
+          "events_url": "https://api.github.com/users/cirospaciari/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/cirospaciari/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": "This is over-engineering — we're testing TLS memory leaks, not the fixture's input validation. The fixture throwing on missing env vars is trivial JS behavior (`if (\\!cert) throw`) and doesn't need a dedicated test.",
+        "created_at": "2026-02-24T21:01:09Z",
+        "updated_at": "2026-02-24T21:01:09Z",
+        "html_url": "https://github.com/oven-sh/bun/pull/27385#discussion_r2849521782",
+        "pull_request_url": "https://api.github.com/repos/oven-sh/bun/pulls/27385",
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/oven-sh/bun/pulls/comments/2849521782"
+          },
+          "html": {
+            "href": "https://github.com/oven-sh/bun/pull/27385#discussion_r2849521782"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/oven-sh/bun/pulls/27385"
+          }
+        },
+        "reactions": {
+          "url": "https://api.github.com/repos/oven-sh/bun/pulls/comments/2849521782/reactions",
+          "total_count": 1,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 1
+        },
+        "in_reply_to_id": 2849513972,
+        "original_position": 140,
+        "position": 140,
+        "subject_type": "line"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/oven-sh/bun/pulls/27385",
+        "id": 3318113366,
+        "number": 27385,
+        "head": {
+          "ref": "ciro/tls-config",
+          "sha": "36d211db7396ea186a97f4b61a336566276d7128",
+          "repo": {
+            "id": 357728969,
+            "url": "https://api.github.com/repos/oven-sh/bun",
+            "name": "bun"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "38e4340d28eb7a46ae745f813a8700b4ba3791b9",
+          "repo": {
+            "id": 357728969,
+            "url": "https://api.github.com/repos/oven-sh/bun",
+            "name": "bun"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-02-24T21:01:09Z",
+    "org": {
+      "id": 108928776,
+      "login": "oven-sh",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/oven-sh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/108928776?"
+    }
+  },
+  {
+    "id": "6848719204",
+    "type": "PullRequestReviewEvent",
+    "actor": {
+      "id": 6379399,
+      "login": "cirospaciari",
+      "display_login": "cirospaciari",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cirospaciari",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6379399?"
+    },
+    "repo": {
+      "id": 357728969,
+      "name": "oven-sh/bun",
+      "url": "https://api.github.com/repos/oven-sh/bun"
+    },
+    "payload": {
+      "review": {
+        "id": 3850499511,
+        "node_id": "PRR_kwDOFVKCyc7lgfW3",
+        "user": {
+          "login": "cirospaciari",
+          "id": 6379399,
+          "node_id": "MDQ6VXNlcjYzNzkzOTk=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/6379399?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/cirospaciari",
+          "html_url": "https://github.com/cirospaciari",
+          "followers_url": "https://api.github.com/users/cirospaciari/followers",
+          "following_url": "https://api.github.com/users/cirospaciari/following{/other_user}",
+          "gists_url": "https://api.github.com/users/cirospaciari/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/cirospaciari/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/cirospaciari/subscriptions",
+          "organizations_url": "https://api.github.com/users/cirospaciari/orgs",
+          "repos_url": "https://api.github.com/users/cirospaciari/repos",
+          "events_url": "https://api.github.com/users/cirospaciari/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/cirospaciari/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": null,
+        "commit_id": "dea81365f40e6af2c1cdaa7bf5f8db1b12d24753",
+        "submitted_at": "2026-02-24T21:01:09Z",
+        "state": "commented",
+        "html_url": "https://github.com/oven-sh/bun/pull/27385#pullrequestreview-3850499511",
+        "pull_request_url": "https://api.github.com/repos/oven-sh/bun/pulls/27385",
+        "_links": {
+          "html": {
+            "href": "https://github.com/oven-sh/bun/pull/27385#pullrequestreview-3850499511"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/oven-sh/bun/pulls/27385"
+          }
+        },
+        "updated_at": "2026-02-24T21:01:09Z"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/oven-sh/bun/pulls/27385",
+        "id": 3318113366,
+        "number": 27385,
+        "head": {
+          "ref": "ciro/tls-config",
+          "sha": "36d211db7396ea186a97f4b61a336566276d7128",
+          "repo": {
+            "id": 357728969,
+            "url": "https://api.github.com/repos/oven-sh/bun",
+            "name": "bun"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "38e4340d28eb7a46ae745f813a8700b4ba3791b9",
+          "repo": {
+            "id": 357728969,
+            "url": "https://api.github.com/repos/oven-sh/bun",
+            "name": "bun"
+          }
+        }
+      },
+      "action": "created"
+    },
+    "public": true,
+    "created_at": "2026-02-24T21:01:10Z",
+    "org": {
+      "id": 108928776,
+      "login": "oven-sh",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/oven-sh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/108928776?"
+    }
+  },
+  {
+    "id": "6848718646",
+    "type": "PullRequestReviewCommentEvent",
+    "actor": {
+      "id": 6379399,
+      "login": "cirospaciari",
+      "display_login": "cirospaciari",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cirospaciari",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6379399?"
+    },
+    "repo": {
+      "id": 357728969,
+      "name": "oven-sh/bun",
+      "url": "https://api.github.com/repos/oven-sh/bun"
+    },
+    "payload": {
+      "action": "created",
+      "comment": {
+        "url": "https://api.github.com/repos/oven-sh/bun/pulls/comments/2849521671",
+        "pull_request_review_id": 3850499395,
+        "id": 2849521671,
+        "node_id": "PRRC_kwDOFVKCyc6p2EAH",
+        "diff_hunk": "@@ -0,0 +1,167 @@\n+import { describe, expect, setDefaultTimeout, test } from \"bun:test\";\n+import { bunEnv, bunExe, isASAN, tls as validTls } from \"harness\";\n+import { join } from \"node:path\";\n+\n+setDefaultTimeout(30_000);\n+\n+describe(\"TLS keepalive for custom SSL configs\", () => {\n+  test(\"keepalive reuses connections with same TLS config\", async () => {\n+    using server = Bun.serve({\n+      port: 0,\n+      tls: validTls,\n+      hostname: \"127.0.0.1\",\n+      fetch(req, server) {\n+        const ip = server.requestIP(req);\n+        return new Response(String(ip?.port ?? 0));\n+      },\n+    });\n+\n+    const url = `https://127.0.0.1:${server.port}`;\n+    const tlsOpts = { ca: validTls.cert, rejectUnauthorized: false };\n+\n+    // Make sequential requests with keepalive enabled.\n+    // With our fix: connections reuse → same client port.\n+    // Without fix: disable_keepalive=true → new connection each time → different ports.\n+    const ports: number[] = [];\n+    for (let i = 0; i < 6; i++) {\n+      const res = await fetch(url, { tls: tlsOpts, keepalive: true });\n+      ports.push(parseInt(await res.text(), 10));\n+    }\n+\n+    const uniquePorts = new Set(ports);\n+    // Keepalive working: at most 2 unique ports (allowing one reconnect)\n+    expect(uniquePorts.size).toBeLessThanOrEqual(2);\n+  });",
+        "path": "test/js/bun/http/tls-keepalive.test.ts",
+        "commit_id": "36d211db7396ea186a97f4b61a336566276d7128",
+        "original_commit_id": "dea81365f40e6af2c1cdaa7bf5f8db1b12d24753",
+        "user": {
+          "login": "cirospaciari",
+          "id": 6379399,
+          "node_id": "MDQ6VXNlcjYzNzkzOTk=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/6379399?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/cirospaciari",
+          "html_url": "https://github.com/cirospaciari",
+          "followers_url": "https://api.github.com/users/cirospaciari/followers",
+          "following_url": "https://api.github.com/users/cirospaciari/following{/other_user}",
+          "gists_url": "https://api.github.com/users/cirospaciari/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/cirospaciari/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/cirospaciari/subscriptions",
+          "organizations_url": "https://api.github.com/users/cirospaciari/orgs",
+          "repos_url": "https://api.github.com/users/cirospaciari/repos",
+          "events_url": "https://api.github.com/users/cirospaciari/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/cirospaciari/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": "Not worth the noise — if `requestIP` returned null, all ports would be 0, and `Set([0,0,0,0,0,0]).size === 1` would still pass the `toBeLessThanOrEqual(2)` check. The test would pass vacuously but wouldn't produce a false negative. The actual server fetch handler is trivial and tested by the fact that the assertions work at all.",
+        "created_at": "2026-02-24T21:01:07Z",
+        "updated_at": "2026-02-24T21:01:08Z",
+        "html_url": "https://github.com/oven-sh/bun/pull/27385#discussion_r2849521671",
+        "pull_request_url": "https://api.github.com/repos/oven-sh/bun/pulls/27385",
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/oven-sh/bun/pulls/comments/2849521671"
+          },
+          "html": {
+            "href": "https://github.com/oven-sh/bun/pull/27385#discussion_r2849521671"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/oven-sh/bun/pulls/27385"
+          }
+        },
+        "reactions": {
+          "url": "https://api.github.com/repos/oven-sh/bun/pulls/comments/2849521671/reactions",
+          "total_count": 1,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 1
+        },
+        "in_reply_to_id": 2849513961,
+        "original_position": 34,
+        "position": 34,
+        "subject_type": "line"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/oven-sh/bun/pulls/27385",
+        "id": 3318113366,
+        "number": 27385,
+        "head": {
+          "ref": "ciro/tls-config",
+          "sha": "36d211db7396ea186a97f4b61a336566276d7128",
+          "repo": {
+            "id": 357728969,
+            "url": "https://api.github.com/repos/oven-sh/bun",
+            "name": "bun"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "38e4340d28eb7a46ae745f813a8700b4ba3791b9",
+          "repo": {
+            "id": 357728969,
+            "url": "https://api.github.com/repos/oven-sh/bun",
+            "name": "bun"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-02-24T21:01:07Z",
+    "org": {
+      "id": 108928776,
+      "login": "oven-sh",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/oven-sh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/108928776?"
+    }
+  },
+  {
+    "id": "6848718640",
+    "type": "PullRequestReviewEvent",
+    "actor": {
+      "id": 6379399,
+      "login": "cirospaciari",
+      "display_login": "cirospaciari",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cirospaciari",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6379399?"
+    },
+    "repo": {
+      "id": 357728969,
+      "name": "oven-sh/bun",
+      "url": "https://api.github.com/repos/oven-sh/bun"
+    },
+    "payload": {
+      "review": {
+        "id": 3850499395,
+        "node_id": "PRR_kwDOFVKCyc7lgfVD",
+        "user": {
+          "login": "cirospaciari",
+          "id": 6379399,
+          "node_id": "MDQ6VXNlcjYzNzkzOTk=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/6379399?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/cirospaciari",
+          "html_url": "https://github.com/cirospaciari",
+          "followers_url": "https://api.github.com/users/cirospaciari/followers",
+          "following_url": "https://api.github.com/users/cirospaciari/following{/other_user}",
+          "gists_url": "https://api.github.com/users/cirospaciari/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/cirospaciari/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/cirospaciari/subscriptions",
+          "organizations_url": "https://api.github.com/users/cirospaciari/orgs",
+          "repos_url": "https://api.github.com/users/cirospaciari/repos",
+          "events_url": "https://api.github.com/users/cirospaciari/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/cirospaciari/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": null,
+        "commit_id": "dea81365f40e6af2c1cdaa7bf5f8db1b12d24753",
+        "submitted_at": "2026-02-24T21:01:07Z",
+        "state": "commented",
+        "html_url": "https://github.com/oven-sh/bun/pull/27385#pullrequestreview-3850499395",
+        "pull_request_url": "https://api.github.com/repos/oven-sh/bun/pulls/27385",
+        "_links": {
+          "html": {
+            "href": "https://github.com/oven-sh/bun/pull/27385#pullrequestreview-3850499395"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/oven-sh/bun/pulls/27385"
+          }
+        },
+        "updated_at": "2026-02-24T21:01:07Z"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/oven-sh/bun/pulls/27385",
+        "id": 3318113366,
+        "number": 27385,
+        "head": {
+          "ref": "ciro/tls-config",
+          "sha": "36d211db7396ea186a97f4b61a336566276d7128",
+          "repo": {
+            "id": 357728969,
+            "url": "https://api.github.com/repos/oven-sh/bun",
+            "name": "bun"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "38e4340d28eb7a46ae745f813a8700b4ba3791b9",
+          "repo": {
+            "id": 357728969,
+            "url": "https://api.github.com/repos/oven-sh/bun",
+            "name": "bun"
+          }
+        }
+      },
+      "action": "created"
+    },
+    "public": true,
+    "created_at": "2026-02-24T21:01:08Z",
+    "org": {
+      "id": 108928776,
+      "login": "oven-sh",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/oven-sh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/108928776?"
+    }
+  }
+]

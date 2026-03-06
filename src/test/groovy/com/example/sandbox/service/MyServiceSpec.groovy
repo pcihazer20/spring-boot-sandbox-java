@@ -9,8 +9,7 @@ class MyServiceSpec extends Specification {
 
     MyRepository repository = Mock()
 
-    @Subject
-    MyService myService = new MyService(repository)
+
 
 
 }
